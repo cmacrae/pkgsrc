@@ -10,7 +10,6 @@ COMMENT=	Profanity is a consoled based XMPP client.
 LICENSE=	gnu-gpl-v3
 USE_TOOLS+=	pkg-config
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS= --prefix=/usr/pkg
 
 .include "../../chat/libstrophe/buildlink3.mk"
 .include "../../devel/ncursesw/buildlink3.mk"
