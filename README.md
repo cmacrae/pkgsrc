@@ -11,12 +11,13 @@
 - openbox
 - subtle
 - AwesomeWM
-- cmus ( non working in ports )
+- cmus ( non working in ports ) - [akacase]
 - R
 - tint2
 - clang3.3
 - infinality
 - gdb
+- profanity (www.profanity.im)
 
 
 
