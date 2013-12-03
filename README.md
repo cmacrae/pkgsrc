@@ -17,7 +17,7 @@
 - clang3.3
 - infinality
 - gdb
-- profanity (www.profanity.im) - [yrmt]
+- profanity (www.profanity.im) - [yrmt] - DONE
 
 
 
