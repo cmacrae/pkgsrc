@@ -22,6 +22,7 @@
 - mcwm - [yrmt] - DONE
 - 2bwm - [yrmt] - DONE
 - rxvt with xft - [yrmt] - DONE
+- rebuild X ports to not use pkgsrc X libraries. - [yrmt]
 
 
 
