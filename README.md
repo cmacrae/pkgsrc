@@ -21,8 +21,12 @@
 - mcabber - [yrmt] - DONE
 - mcwm - [yrmt] - DONE
 - 2bwm - [yrmt] - DONE
+- rxvt with xft - [yrmt] - DONE
 
 
 
+# Remarks:
+
+- do not have an /opt or /usr/local when compiling ports!
 
 
