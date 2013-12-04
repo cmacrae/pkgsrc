@@ -8,7 +8,7 @@
 - qt5 - [yrmt]
 - herbstluftwm
 - i3
-- openbox
+- openbox - [yrmt] - DONE
 - subtle
 - AwesomeWM
 - cmus ( non working in ports ) - [akacase]
