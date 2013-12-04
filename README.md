@@ -18,6 +18,7 @@
 - infinality
 - gdb
 - profanity (www.profanity.im) - [yrmt] - DONE
+- mcabber - [yrmt] - DONE
 
 
 
