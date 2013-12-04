@@ -4,8 +4,8 @@
 - valgrind
 - g95
 - rtorrent
-- qt4 ( https://github.com/cliffrowley/homebrew/blob/master/Library/Formula/qt.rb )
-- qt5 ( idem. )
+- qt4 - [yrmt]
+- qt5 - [yrmt]
 - herbstluftwm
 - i3
 - openbox
