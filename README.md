@@ -22,7 +22,12 @@
 - mcwm - [yrmt] - DONE
 - 2bwm - [yrmt] - DONE
 - rxvt with xft - [yrmt] - DONE
-
+- xenoara cwm - [yrmt] 
+- wmfs
+- spectrwm
+- bspwm
+- hlwm
+- monsterwm
 
 
 # Remarks:
