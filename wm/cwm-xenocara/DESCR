@@ -1,0 +1,8 @@
+cwm (sometimes referred to as calmwm) is a stacking window manager 
+for X Window System available on OpenBSD (included in base system),
+NetBSD, DragonFlyBSD and Linux distributions using pkgsrc, Gentoo 
+Linux and some other Linux distributions.
+
+The acronym cwm stands for Calm Window Manager.
+
+Homepage: https://github.com/chneukirchen/cwm
