@@ -29,7 +29,7 @@
 - bspwm
 - hlwm
 - monsterwm
-
+- i2p
 
 # Remarks:
 
