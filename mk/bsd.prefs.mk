@@ -576,7 +576,7 @@ X11BASE?=	/usr
         !empty(MACHINE_PLATFORM:MDarwin-11.*-*)
 X11BASE?=	/usr/X11
 .  elif !empty(MACHINE_PLATFORM:MDarwin-??.*-*)
-X11BASE?=	/opt/X11
+X11BASE?=	/usr/pkg
 .  elif ${OPSYS} == "NetBSD" && ${X11FLAVOUR:U} == "Xorg"
 X11BASE?=	/usr/X11R7
 .  elif exists(/usr/X11R7/lib/libX11.so)
