@@ -32,5 +32,7 @@ CFLAGS+=	-fno-common
 .endif
 
 .include "../../x11/fixesproto4/buildlink3.mk"
+.include "../../x11/libX11/buildlink3.mk"
+.include "../../x11/libXext/buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
