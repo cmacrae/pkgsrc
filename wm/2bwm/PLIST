@@ -1,0 +1,3 @@
+@comment $NetBSD$
+bin/2bwm
+man/man1/2bwm.1

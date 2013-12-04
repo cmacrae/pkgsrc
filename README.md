@@ -19,6 +19,8 @@
 - gdb
 - profanity (www.profanity.im) - [yrmt] - DONE
 - mcabber - [yrmt] - DONE
+- mcwm - [yrmt] - DONE
+- 2bwm - [yrmt] - DONE
 
 
 
