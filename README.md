@@ -28,5 +28,6 @@
 # Remarks:
 
 - do not have an /opt or /usr/local when compiling ports!
+- use this mk.conf! (/usr/pkg/etc/mk.conf)
 
-
+http://paste.unixhub.net/index.php/pYyIcM
