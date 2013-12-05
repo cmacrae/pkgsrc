@@ -4,7 +4,7 @@
 - valgrind
 - g95
 - rtorrent
-- qt4 - [yrmt]
+- qt4 - [yrmt] - qt4-lib done
 - qt5 - [yrmt]
 - herbstluftwm
 - i3
