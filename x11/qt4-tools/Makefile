@@ -9,9 +9,12 @@ DEPENDS+=	libtool-base-[0-9]*:../../devel/libtool-base
 
 CONFIGURE_ARGS+=	-I${QTDIR}/include -L${QTDIR}/lib
 CONFIGURE_ARGS+=	-DQT_NO_DBUS
+CONFIGURE_ARGS+=	-opensource -confirm-license
+
 
 # XXX this is to test what really gets installed when 'do-install' is disabled
 INSTALL_DIRS+=		tools
+USE_TOOLS+=		perl gmake 
 
 BUILD_TARGET=		sub-tools-bootstrap sub-tools
 

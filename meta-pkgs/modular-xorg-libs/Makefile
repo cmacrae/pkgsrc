@@ -11,18 +11,23 @@ MAINTAINER=	joerg@NetBSD.org
 HOMEPAGE=	http://xorg.freedesktop.org/
 COMMENT=	Modular Xorg library meta-package
 LICENSE=	2-clause-bsd
+DEPENDS+=	libFS>=1.0.5:../../x11/libFS
+DEPENDS+=	libXTrap>=1.0.1:../../x11/libXTrap
+DEPENDS+=	libXdamage>=1.1.4:../../x11/libXdamage
+DEPENDS+=	libXevie>=1.0.3:../../x11/libXevie
+DEPENDS+=	libXp>=1.0.2:../../x11/libXp
 
 META_PACKAGE=	yes
 
 .include "../../mk/bsd.fast.prefs.mk"
 
-.if ${OPSYS} == "Darwin"
-.include "../../wm/libAppleWM/buildlink3.mk"
-.endif
+#.if ${OPSYS} == "Darwin"
+#.include "../../wm/libAppleWM/buildlink3.mk"
+#.endif
 .include "../../x11/libFS/buildlink3.mk"
 .include "../../x11/libICE/buildlink3.mk"
 .include "../../x11/libSM/buildlink3.mk"
-.include "../../wm/libWindowsWM/buildlink3.mk"
+#.include "../../wm/libWindowsWM/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/libXScrnSaver/buildlink3.mk"
 .include "../../x11/libXTrap/buildlink3.mk"
@@ -47,13 +52,13 @@ META_PACKAGE=	yes
 .include "../../x11/libXrender/buildlink3.mk"
 .include "../../x11/libXres/buildlink3.mk"
 .include "../../x11/libXt/buildlink3.mk"
-.include "../../x11/libXtst/buildlink3.mk"
+#.include "../../x11/libXtst/buildlink3.mk"
 .include "../../x11/libXv/buildlink3.mk"
 .include "../../x11/libXvMC/buildlink3.mk"
 .include "../../x11/libXxf86dga/buildlink3.mk"
 .include "../../x11/libXxf86misc/buildlink3.mk"
 .include "../../x11/libXxf86vm/buildlink3.mk"
-.include "../../x11/libdrm/buildlink3.mk"
+#.include "../../x11/libdrm/buildlink3.mk"
 .include "../../x11/libxkbfile/buildlink3.mk"
 .include "../../x11/libxkbui/buildlink3.mk"
 
