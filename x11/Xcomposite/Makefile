@@ -21,6 +21,7 @@ GNU_CONFIGURE=		yes
 PKGCONFIG_OVERRIDE+=	xcomposite.pc.in
 
 .include "../../x11/libXfixes/buildlink3.mk"
+.include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/compositeproto/buildlink3.mk"
 .include "../../x11/fixesproto/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
