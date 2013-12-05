@@ -48,11 +48,11 @@ http://paste.unixhub.net/index.php/pYyIcM
 
 
 
-`$ pkgvi work/<port>/file.c    # Creates a backup of the original file`    
-`$ pkgdiff work/<port>/file.c  # Prints a unified diff with backup (diff -bu)`    
-`$ mkpatches                   # Creates the patches from diff -bu`    
-`$ bmake mdi                   # Creates the distinfo file with checksums`    
-`$ mkpatches -c                # Cleans the .orig files`    
+`$ pkgvi work/<port>/file.c`    # Creates a backup of the original file    
+`$ pkgdiff work/<port>/file.c`  # Prints a unified diff with backup (diff -bu)      
+`$ mkpatches`                   # Creates the patches from diff -bu      
+`$ bmake mdi`                   # Creates the distinfo file with checksums     
+`$ mkpatches -c`                # Cleans the .orig files       
 
 
 
@@ -60,10 +60,10 @@ http://paste.unixhub.net/index.php/pYyIcM
 
 
 
-`$ bmake CHECK_FILES=no install # Install without checking files or nothing gets installed`    
-`$ bmake print-PLIST >PLIST     # Add installed files to the pist`    
-`$ bmake deinstall              # deinstall the package`    
-`$ bmake install package clean  # reinstall the port, make a package and clean`    
+`$ bmake CHECK_FILES=no install` # Install without checking files or nothing gets installed     
+`$ bmake print-PLIST >PLIST`     # Add installed files to the pist        
+`$ bmake deinstall`              # deinstall the package     
+`$ bmake install package clean`  # reinstall the port, make a package and clean      
 
 
 
@@ -71,4 +71,4 @@ http://paste.unixhub.net/index.php/pYyIcM
 
 
 
-`$ createbuildlink > buildlink3.mk # This is needed when ports are depended upon`    
+`$ createbuildlink > buildlink3.mk` # This is needed when ports are depends           
