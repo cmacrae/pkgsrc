@@ -21,13 +21,13 @@ META_PACKAGE=	yes
 
 .include "../../mk/bsd.fast.prefs.mk"
 
-#.if ${OPSYS} == "Darwin"
-#.include "../../wm/libAppleWM/buildlink3.mk"
-#.endif
+.if ${OPSYS} == "Darwin"
+.include "../../wm/libAppleWM/buildlink3.mk"
+.endif
 .include "../../x11/libFS/buildlink3.mk"
 .include "../../x11/libICE/buildlink3.mk"
 .include "../../x11/libSM/buildlink3.mk"
-#.include "../../wm/libWindowsWM/buildlink3.mk"
+.include "../../wm/libWindowsWM/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/libXScrnSaver/buildlink3.mk"
 .include "../../x11/libXTrap/buildlink3.mk"
