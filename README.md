@@ -14,7 +14,7 @@
 - cmus ( non working in ports ) - [akacase]
 - R
 - tint2
-- clang3.3
+- clang3.3 - [yrmt] - DONE
 - infinality
 - gdb
 - profanity (www.profanity.im) - [yrmt] - DONE
