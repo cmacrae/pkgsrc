@@ -35,6 +35,7 @@ BUILDLINK_API_DEPENDS.libX11+=		libX11>=1.5
 BUILDLINK_API_DEPENDS.libXext+=		libXext>=1.1
 BUILDLINK_API_DEPENDS.xextproto+=	xextproto>=7.0.3
 BUILDLINK_API_DEPENDS.xproto+=		xproto>=7.0.13
+BUILDLINK_API_DEPENDS.libXfixes+=	libXfixes>=5.0
 .include "../../x11/inputproto/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/libXext/buildlink3.mk"

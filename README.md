@@ -23,7 +23,7 @@
 - 2bwm - [yrmt] - DONE
 - rxvt with xft - [yrmt] - DONE
 - ctwm - [yrmt] - DONE
-- rebuild X ports to use pkgsrc X libraries. - [yrmt]
+- rebuild X ports to use pkgsrc X libraries. - [yrmt] - DONE
 - xenoara cwm - [yrmt]  - DONE
 - wmfs
 - spectrwm
@@ -31,6 +31,9 @@
 - hlwm
 - monsterwm
 - i2p
+
+- gtk2 - [yrmt] - DONE
+- gtk3
 
 # Remarks:
 
