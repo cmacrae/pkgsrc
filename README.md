@@ -22,6 +22,7 @@
 - mcwm - [yrmt] - DONE
 - 2bwm - [yrmt] - DONE
 - rxvt with xft - [yrmt] - DONE
+- ctwm - [yrmt] - DONE
 - rebuild X ports to use pkgsrc X libraries. - [yrmt]
 - xenoara cwm - [yrmt]  - DONE
 - wmfs
