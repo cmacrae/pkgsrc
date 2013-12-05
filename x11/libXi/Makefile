@@ -42,6 +42,5 @@ BUILDLINK_API_DEPENDS.libXfixes+=	libXfixes>=5.0
 .include "../../x11/libXfixes/buildlink3.mk"
 .include "../../x11/xextproto/buildlink3.mk"
 .include "../../x11/xproto/buildlink3.mk"
-.include "../../x11/libXfixes/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
