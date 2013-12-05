@@ -24,4 +24,5 @@ BUILDLINK_API_DEPENDS.glib2+=	glib2>=2.32.0
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../sysutils/dbus/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
+.include "../../x11/libsm/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

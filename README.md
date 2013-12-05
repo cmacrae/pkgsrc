@@ -35,6 +35,8 @@
 - gtk2 - [yrmt] - DONE
 - gtk3
 
+- libXtst !! important
+
 # Remarks:
 
 - do not have an /opt or /usr/local when compiling ports!
