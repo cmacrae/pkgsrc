@@ -5,12 +5,12 @@
 PKG_OPTIONS_VAR=	PKG_OPTIONS.imlib2
 PKG_SUPPORTED_OPTIONS=	x11
 PKG_SUGGESTED_OPTIONS=	x11
-.if ${MACHINE_ARCH} == "i386"
-PKG_SUPPORTED_OPTIONS+=	mmx
-.elif ${MACHINE_ARCH} == "x86_64"
-PKG_SUPPORTED_OPTIONS+=	imlib2-amd64
-PKG_SUGGESTED_OPTIONS+=	imlib2-amd64
-.endif
+#.if ${MACHINE_ARCH} == "i386"
+#PKG_SUPPORTED_OPTIONS+=	mmx
+#.elif ${MACHINE_ARCH} == "x86_64"
+#PKG_SUPPORTED_OPTIONS+=	imlib2-amd64
+#PKG_SUGGESTED_OPTIONS+=	imlib2-amd64
+#.endif
 
 .include "../../mk/bsd.options.mk"
 
@@ -20,11 +20,11 @@ CONFIGURE_ARGS+=	--enable-mmx
 CONFIGURE_ARGS+=	--disable-mmx
 .endif
 
-.if !empty(PKG_OPTIONS:Mimlib2-amd64)
-CONFIGURE_ARGS+=	--enable-amd64
-.else
+#.if !empty(PKG_OPTIONS:Mimlib2-amd64)
+#CONFIGURE_ARGS+=	--enable-amd64
+#.else
 CONFIGURE_ARGS+=	--disable-amd64
-.endif
+#.endif
 
 PLIST_VARS+=		x11
 
