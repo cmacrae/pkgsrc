@@ -40,5 +40,6 @@ DEPENDS+=	xextproto-[0-9]*:../../x11/xextproto
 DEPENDS+=	xf86vidmodeproto-[0-9]*:../../x11/xf86vidmodeproto
 DEPENDS+=	xineramaproto-[0-9]*:../../x11/xineramaproto
 DEPENDS+=	xproto-[0-9]*:../../x11/xproto
+DEPENDS+=	presentproto-[0-9]*:../../x11/presentproto
 
 .include "../../mk/bsd.pkg.mk"
