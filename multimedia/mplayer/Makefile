@@ -16,6 +16,8 @@ CONFIGURE_ARGS+=	--disable-mencoder
 CONFIGURE_ARGS+=	--confdir=${PREFIX}/share/mplayer
 CONFIGURE_ARGS+=	--enable-xvmc
 CONFIGURE_ARGS+=	--with-xvmclib=XvMCW
+CONFIGURE_ARGS+=	--disable-corevideo
+CONFIGURE_ARGS+=	--disable-pulse
 
 # Solaris/x86 has Xv, but the header files live in /usr/X11R6, not
 # ${X11_BASE}, so we need to also look for headers in this path.

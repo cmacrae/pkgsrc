@@ -294,20 +294,20 @@ CONFIGURE_ARGS+=	--enable-png
 CONFIGURE_ARGS+=	--disable-png
 .endif
 
-.if !empty(PKG_OPTIONS:Mpulseaudio)
-CONFIGURE_ARGS+=	--enable-pulse
-.  include "../../devel/glib2/buildlink3.mk"
-.  include "../../audio/pulseaudio/buildlink3.mk"
-.else
+#.if !empty(PKG_OPTIONS:Mpulseaudio)
+#CONFIGURE_ARGS+=	--enable-pulse
+#.  include "../../devel/glib2/buildlink3.mk"
+#.  include "../../audio/pulseaudio/buildlink3.mk"
+#.else
 CONFIGURE_ARGS+=	--disable-pulse
-.endif
+#.endif
 
-.if !empty(PKG_OPTIONS:Msdl)
-CONFIGURE_ARGS+=	--enable-sdl
-.  include "../../devel/SDL/buildlink3.mk"
-.else
+#.if !empty(PKG_OPTIONS:Msdl)
+#CONFIGURE_ARGS+=	--enable-sdl
+#.  include "../../devel/SDL/buildlink3.mk"
+#.else
 CONFIGURE_ARGS+=	--disable-sdl
-.endif
+#.endif
 
 .if !empty(PKG_OPTIONS:Mtheora)
 CONFIGURE_ARGS+=	--enable-theora
