@@ -33,7 +33,7 @@
 - i2p
 
 - gtk2 - [yrmt] - DONE
-- gtk3
+- gtk3 - [yrmt] - DONE
 
 - libXtst !! important - [yrmt] - DONE
 
