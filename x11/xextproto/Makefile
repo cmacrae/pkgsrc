@@ -1,7 +1,7 @@
 # $NetBSD: Makefile,v 1.14 2012/10/29 05:07:02 asau Exp $
 #
 
-DISTNAME=		xextproto-7.2.1
+DISTNAME=		xextproto-7.2.99.901
 CATEGORIES=		x11
 MASTER_SITES=		${MASTER_SITE_XORG:=proto/}
 EXTRACT_SUFX=		.tar.bz2
