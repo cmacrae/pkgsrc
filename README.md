@@ -26,7 +26,7 @@
 - rebuild X ports to use pkgsrc X libraries. - [yrmt] - DONE
 - xenoara cwm - [yrmt]  - DONE
 - wmfs
-- spectrwm
+- spectrwm - [yrmt] - DONE
 - bspwm
 - hlwm
 - monsterwm
