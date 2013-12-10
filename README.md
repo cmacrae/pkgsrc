@@ -21,7 +21,7 @@
 - mcabber - [yrmt] - DONE
 - mcwm - [yrmt] - DONE
 - 2bwm - [yrmt] - DONE
-- rxvt with xft - [yrmt] - DONE
+- urxvt with xft - [yrmt] - DONE
 - ctwm - [yrmt] - DONE
 - rebuild X ports to use pkgsrc X libraries. - [yrmt] - DONE
 - xenoara cwm - [yrmt]  - DONE
@@ -35,14 +35,14 @@
 - gtk2 - [yrmt] - DONE
 - gtk3
 
-- libXtst !! important
+- libXtst !! important - [yrmt] - DONE
 
 # Remarks:
 
 - do not have an /opt or /usr/local when compiling ports!
 - use this mk.conf! (/usr/pkg/etc/mk.conf)
 
-http://paste.unixhub.net/index.php/pYyIcM
+http://paste.unixhub.net/index.php/FzWG   
 
 # pkgsrc instructions: 
 

@@ -52,7 +52,7 @@ META_PACKAGE=	yes
 .include "../../x11/libXrender/buildlink3.mk"
 .include "../../x11/libXres/buildlink3.mk"
 .include "../../x11/libXt/buildlink3.mk"
-#.include "../../x11/libXtst/buildlink3.mk"
+.include "../../x11/libXtst/buildlink3.mk"
 .include "../../x11/libXv/buildlink3.mk"
 .include "../../x11/libXvMC/buildlink3.mk"
 .include "../../x11/libXxf86dga/buildlink3.mk"
