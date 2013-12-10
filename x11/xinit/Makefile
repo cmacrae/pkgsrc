@@ -12,7 +12,7 @@ LICENSE=		mit
 
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-xinit=${PREFIX}/bin/xinit
-USE_TOOLS+=		pkg-config xauth:run
+USE_TOOLS+=		pkg-config xauth:run gmake
 
 TOOL_DEPENDS+=		tradcpp-[0-9]*:../../devel/tradcpp
 CONFIGURE_ENV+=		ac_cv_path_RAWCPP="${PREFIX}/bin/tradcpp -Uunix"
