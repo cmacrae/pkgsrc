@@ -1,24 +1,17 @@
-# $NetBSD: Makefile,v 1.8 2012/10/23 19:51:07 asau Exp $
-#
+# $NetBSD$
 
-DISTNAME=	htop-1.0.1
+DISTNAME=	htop-osx
+PKGNAME=	htop-git
 CATEGORIES=	sysutils
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=htop/}
+MASTER_SITES=	http://saveosx.org/packages/Darwin/2013Q2/x86_64/distfiles/
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://htop.sourceforge.net/
-COMMENT=	Enhanced version of top utility
-LICENSE=	gnu-gpl-v2
+MAINTAINER=	youri.mout@gmail.com
+HOMEPAGE=	https://github.com/max-horvath/htop-osx/archive/
+COMMENT=	Interactive process viewer
+#LICENSE=	# TODO: (see mk/license.mk)
 
+USE_TOOLS+=	gmake 
 GNU_CONFIGURE=	yes
-USE_NCURSES=	yes # uses ncurses mouse definitions
 
-USE_LIBTOOL=	yes
-
-ONLY_FOR_PLATFORM=     Linux-*-* FreeBSD-*-* NetBSD-*-*
-
-CONFIGURE_ENV+=		ac_cv_file__proc_stat=yes ac_cv_file__proc_meminfo=yes
-
-.include "../../devel/ncursesw/buildlink3.mk"
-.include "../../sysutils/desktop-file-utils/desktopdb.mk"
+# url2pkg-marker (please do not remove this line.)
 .include "../../mk/bsd.pkg.mk"
