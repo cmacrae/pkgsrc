@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.2 2013/08/22 06:59:35 wiz Exp $
 
-DISTNAME=	xcb-util-cursor-0.1.0
+DISTNAME=	xcb-util-cursor-0.1.1
 CATEGORIES=	x11
 MASTER_SITES=	http://xcb.freedesktop.org/dist/
 EXTRACT_SUFX=	.tar.bz2
@@ -17,7 +17,7 @@ USE_LIBTOOL=	yes
 #PKGCONFIG_OVERRIDE=	image/xcb-image.pc.in
 
 .include "../../x11/libxcb/buildlink3.mk"
-#.include "../../x11/xcb-util/buildlink3.mk"
+.include "../../x11/xcb-util/buildlink3.mk"
 .include "../../x11/xcb-util-image/buildlink3.mk"
 .include "../../x11/xcb-util-renderutil/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
