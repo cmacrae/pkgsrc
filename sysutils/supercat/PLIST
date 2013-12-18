@@ -1,0 +1,14 @@
+@comment $NetBSD$
+bin/spc
+etc/supercat/spcrc-ChangeLog
+etc/supercat/spcrc-access_log
+etc/supercat/spcrc-c
+etc/supercat/spcrc-diff
+etc/supercat/spcrc-emerge
+etc/supercat/spcrc-error_log
+etc/supercat/spcrc-gentooconfd
+etc/supercat/spcrc-patch
+etc/supercat/spcrc-py
+etc/supercat/spcrc-svn
+etc/supercat/spcrc-xorg
+man/man1/spc.1
