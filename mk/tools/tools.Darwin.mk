@@ -3,6 +3,7 @@
 # System-supplied tools for the Darwin (Mac OS X) operating system.
 
 TOOLS_PLATFORM.[?=		[			# shell builtin
+TOOLS_PLATFORM.perl?=		/usr/bin/perl
 TOOLS_PLATFORM.awk?=		/usr/bin/awk
 TOOLS_PLATFORM.basename?=	/usr/bin/basename
 TOOLS_PLATFORM.bash?=		/bin/bash

@@ -1,6 +1,6 @@
 # TODO ports for Darwin x86_64 !
 
-- gcc-49
+- gcc-48 - [yrmt] - DONE
 - valgrind
 - g95
 - rtorrent
@@ -74,3 +74,4 @@ http://paste.unixhub.net/index.php/6dP
 
 
 `$ createbuildlink > buildlink3.mk` # This is needed when ports are depends           
+
