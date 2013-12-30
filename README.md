@@ -27,7 +27,7 @@
 - xenoara cwm - [yrmt]  - DONE
 - wmfs
 - spectrwm - [yrmt] - DONE
-- bspwm
+- bspwm - [yrmt] - DONE
 - hlwm
 - monsterwm
 - i2p
