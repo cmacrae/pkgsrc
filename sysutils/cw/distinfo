@@ -1,0 +1,6 @@
+$NetBSD$
+
+SHA1 (cw-1.0.16.tar.gz) = aede60d3f7a9c384e98836a84072dc7b459ce616
+RMD160 (cw-1.0.16.tar.gz) = 7040d32ca9cc82d7a341a237343bfbb7cf9eda75
+Size (cw-1.0.16.tar.gz) = 85621 bytes
+SHA1 (patch-Makefile.in) = 27a57cf243934002c33462209526d73d8cb2139e
