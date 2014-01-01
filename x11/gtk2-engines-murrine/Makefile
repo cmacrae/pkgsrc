@@ -1,11 +1,10 @@
 # $NetBSD: Makefile,v 1.24 2013/09/02 19:51:31 adam Exp $
 
-DISTNAME=	murrine-0.90.3
+DISTNAME=	murrine-0.98.2
 PKGNAME=	${DISTNAME:S/^/gtk2-engines-/}
-PKGREVISION=	17
 CATEGORIES=	x11 gnome
-MASTER_SITES=	${MASTER_SITE_GNOME:=sources/murrine/0.90/}
-EXTRACT_SUFX=	.tar.bz2
+MASTER_SITES=	${MASTER_SITE_GNOME:=sources/murrine/0.98/}
+EXTRACT_SUFX=	.tar.xz
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.cimitan.com/murrine/
