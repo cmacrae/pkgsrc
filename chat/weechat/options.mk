@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.weechat
 PKG_SUPPORTED_OPTIONS=	charset gnutls python lua wide-curses perl ruby
-PKG_SUGGESTED_OPTIONS=	charset gnutls
+PKG_SUGGESTED_OPTIONS=	charset gnutls perl wide-curses
 
 .include "../../mk/bsd.options.mk"
 
