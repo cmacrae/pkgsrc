@@ -1,3 +1,0 @@
-@comment $NetBSD: PLIST.arm,v 1.1 2013/02/17 17:24:08 spz Exp $
-${EMULSUBDIRSLASH}usr/lib/libpmc.so.0
-${EMULSUBDIRSLASH}usr/lib/libpmc.so.0.0
