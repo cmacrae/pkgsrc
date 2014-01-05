@@ -1,0 +1,22 @@
+$NetBSD$
+
+--- Makefile.in.orig	2013-06-16 14:00:45.000000000 +0000
++++ Makefile.in
+@@ -21,7 +21,7 @@ INSTALL=	@INSTALL@
+ 
+ OPSYS!=		uname
+ OS_VER!=	uname -r
+-OS_ARCH!=	uname -p
++OS_ARCH!=	uname -m
+ 
+ # satisfy mk.conf
+ BSD_PKG_MK=	1
+@@ -76,7 +76,7 @@ CPPFLAGS+=	-DLOCALBASE=\"${LOCALBASE}\" 
+ 
+ CPPFLAGS+=	-DHAVE_CONFIG_H
+ CPPFLAGS+=	-D_LARGEFILE_SOURCE -D_LARGE_FILES
+-CPPFLAGS+=	-DCHECK_MACHINE_ARCH=\"${MACHINE_ARCH}\"
++CPPFLAGS+=	-DCHECK_MACHINE_ARCH=\"${OS_ARCH}\"
+ CPPFLAGS+=	-Iexternal -I. -I${LOCALBASE}/include
+ 
+ LDFLAGS+=	@LDFLAGS@
