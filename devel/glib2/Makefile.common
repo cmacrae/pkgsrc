@@ -1,4 +1,4 @@
-# $NetBSD: Makefile.common,v 1.33 2013/09/19 11:45:22 ryoon Exp $
+# $NetBSD: Makefile.common,v 1.36 2013/12/28 14:41:55 tron Exp $
 #
 # used by devel/glib2/Makefile
 # used by devel/gdbus-codegen/Makefile
@@ -6,11 +6,10 @@
 
 # When updating this package, please apply patch-ak to configure.in and
 # then run a matching version of autoconf to regen patch-aa.
-DISTNAME=	glib-2.36.4
+DISTNAME=	glib-2.38.2
 PKGNAME=	${DISTNAME:S/glib/glib2/}
 CATEGORIES=	# empty; redefined in Makefile
-MASTER_SITES=	ftp://ftp.gtk.org/pub/glib/${PKGVERSION_NOREV:R}/ \
-		${MASTER_SITE_GNOME:=sources/glib/${PKGVERSION_NOREV:R}/}
+MASTER_SITES=	${MASTER_SITE_GNOME:=sources/glib/${PKGVERSION_NOREV:R}/}
 EXTRACT_SUFX=	.tar.xz
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
@@ -75,6 +74,10 @@ BUILDLINK_TRANSFORM+=	rm:-Werror=missing-prototypes
 
 .if ${OPSYS} == "HPUX"
 CONFIGURE_ENV+=		ac_cv_func_mmap_fixed_mapped=yes
+.endif
+
+.if ${OPSYS} == "SunOS"
+BUILDLINK_TRANSFORM+=	rm:-Werror=format=2
 .endif
 
 .include "../../mk/dlopen.buildlink3.mk"
