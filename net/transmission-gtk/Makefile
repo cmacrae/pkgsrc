@@ -6,7 +6,7 @@ PKGREVISION=	6
 USE_LANGUAGES+=		c c++
 INSTALL_ENV+=		INSTALL_ROOT=${DESTDIR}${PREFIX}
 
-CONFIGURE_ARGS+=	--disable-cli --disable-daemon --with-gtk
+CONFIGURE_ARGS+=	--disable-cli --disable-daemon --with-gtk --disable-mac
 
 CONFLICTS+=		Transmission-gui-[0-9]*
 
