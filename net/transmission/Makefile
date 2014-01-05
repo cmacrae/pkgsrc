@@ -5,7 +5,7 @@ CONFLICTS+=	Transmission-[0-9]*
 pre-configure:
 	touch ${WRKSRC}/po/Makefile
 
-CONFIGURE_ARGS+=	--without-gtk
+CONFIGURE_ARGS+=	--without-gtk --disable-mac
 
 .include "../../net/transmission/Makefile.common"
 .include "../../mk/bsd.pkg.mk"
