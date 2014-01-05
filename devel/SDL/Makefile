@@ -50,6 +50,7 @@ MAKE_ENV+=		AM_CFLAGS=${AM_CFLAGS:M*:Q}
 # Irix comes with GL, which works fine for SDL
 .if ${OPSYS} != "IRIX" && ${OPSYS} != "Darwin"
 CONFIGURE_ARGS+=	--disable-x11-shared
+CONFIGURE_ARGS+=	--without-x
 .include "../../graphics/MesaLib/buildlink3.mk"
 .include "../../graphics/glu/buildlink3.mk"
 .include "../../x11/libXext/buildlink3.mk"
