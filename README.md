@@ -31,6 +31,7 @@
 - hlwm
 - monsterwm
 - i2p
+- mpv movie player
 
 - gtk2 - [yrmt] - DONE
 - gtk3 - [yrmt] - DONE
@@ -45,6 +46,11 @@
 http://paste.unixhub.net/index.php/6dP
 
 # pkgsrc instructions: 
+
+###TODO
+
+- link /usr/bin/tar to /usr/bin/gnutar
+
 
 ###Patching ports
 
