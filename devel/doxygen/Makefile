@@ -1,6 +1,6 @@
-# $NetBSD: Makefile,v 1.103 2013/09/02 16:38:56 wiz Exp $
+# $NetBSD: Makefile,v 1.105 2014/01/02 18:26:36 wiz Exp $
 
-DISTNAME=	doxygen-1.8.5.src
+DISTNAME=	doxygen-1.8.6.src
 PKGNAME=	${DISTNAME:S/.src//}
 CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.stack.nl/pub/users/dimitri/ \
@@ -18,12 +18,17 @@ USE_LANGUAGES=		c c++
 HAS_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--make ${GMAKE}
 CONFIGURE_ARGS+=	--perl ${PERL5}
+CONFIGURE_ARGS+=	--python ${PYTHONBIN}
 CONFIGURE_ARGS+=	--install ${INSTALL}
 CONFIGURE_ARGS+=	--dot ${PREFIX}/bin/dot
 CONFIGURE_ARGS+=	--prefix ${PREFIX}
 CONFIGURE_ARGS+=	--docdir ${PREFIX}/share/doc/doxygen
 MAKE_ENV+=		PKGSRC_CFLAGS=${CFLAGS:Q}
 MAKE_FLAGS+=		MAN1DIR=${PKGMANDIR}/man1
+
+LDFLAGS.FreeBSD=	-liconv
+
+REPLACE_PERL=		tmake/bin/tmake
 
 # Case Insensitive fs or Sensitive
 PLIST_VARS+=		ci cs
@@ -35,7 +40,6 @@ SUBST_CLASSES+=		path
 SUBST_STAGE.path=	pre-configure
 SUBST_FILES.path=	doc/Makefile.in
 SUBST_SED.path=		-e "s|@EPSTOPDF@|${LOCALBASE}/bin/epstopdf|g"
-SUBST_SED.path+=	-e "s|@PYTHONBIN@|${PYTHONBIN}|g"
 
 SUBST_CLASSES+=		perlbin
 SUBST_STAGE.perlbin=	pre-configure
@@ -69,6 +73,10 @@ CONFIGURE_ARGS+=	-platform freebsd-g++
 post-patch:
 	touch ${WRKSRC}/src/doxytag.l
 
+# remove unnecessary files that leak tool paths
+post-install:
+	rm ${DESTDIR}${PREFIX}/share/doc/doxygen/examples/Makefile*
+
 BUILDLINK_API_DEPENDS.graphviz+=	graphviz>=2.12nb1
 
 .include "options.mk"
@@ -76,9 +84,9 @@ BUILDLINK_API_DEPENDS.graphviz+=	graphviz>=2.12nb1
 .include "../../graphics/graphviz/buildlink3.mk"
 
 .if !empty(PKG_BUILD_OPTIONS.graphviz:Mpangocairo)
-PLIST.pangocairo=       yes
+PLIST.pangocairo=	yes
 .else
-PLIST.nopangocairo=       yes
+PLIST.nopangocairo=	yes
 .endif
 .include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"
