@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.graphviz
 PKG_SUPPORTED_OPTIONS=	gd ghostscript gtk guile lua ocaml pangocairo rsvg tcl x11 perl
-PKG_SUGGESTED_OPTIONS=	gd gtk lua pangocairo perl tcl x11
+PKG_SUGGESTED_OPTIONS=	gd gtk lua pangocairo perl  x11
 # Explanation of consequence of options, to help those trying to slim down:
 #   guile ocaml lua tcl perl: extension language support
 #   x11: Omits all linking with x11, which means x11 graphics supports as
