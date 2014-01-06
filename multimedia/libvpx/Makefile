@@ -36,34 +36,6 @@ REPLACE_BASH=		configure \
 			examples/gen_example_text.sh \
 			examples/gen_example_code.sh
 
-.if ${OPSYS} == "Darwin"
-BUILDLINK_TRANSFORM+=	rm:-Wl,-Bsymbolic
-.  if ${MACHINE_ARCH} == "i386"
-.    if !empty(OS_VERSION:M12.*)
-CONFIGURE_ARGS+=	--target=x86-darwin12-gcc
-.    elif !empty(OS_VERSION:M11.*)
-CONFIGURE_ARGS+=	--target=x86-darwin11-gcc
-.    elif !empty(OS_VERSION:M10.*)
-CONFIGURE_ARGS+=	--target=x86-darwin10-gcc
-.    elif !empty(OS_VERSION:M9.*)
-CONFIGURE_ARGS+=	--target=x86-darwin9-gcc
-.    else
-CONFIGURE_ARGS+=	--target=x86-darwin8-gcc
-.    endif
-.  elif ${MACHINE_ARCH} == "x86_64"
-.    if !empty(OS_VERSION:M12.*)
-CONFIGURE_ARGS+=	--target=x86_64-darwin12-gcc
-.    elif !empty(OS_VERSION:M11.*)
-CONFIGURE_ARGS+=	--target=x86_64-darwin11-gcc
-.    elif !empty(OS_VERSION:M10.*)
-CONFIGURE_ARGS+=	--target=x86_64-darwin10-gcc
-.    elif !empty(OS_VERSION:M9.*)
-CONFIGURE_ARGS+=	--target=x86_64-darwin9-gcc
-.    else
-CONFIGURE_ARGS+=	--target=x86_64-darwin8-gcc
-.    endif
-.  endif
-.endif
 
 .include "../../mk/compiler.mk"
 .if !empty(PKGSRC_COMPILER:Mclang)

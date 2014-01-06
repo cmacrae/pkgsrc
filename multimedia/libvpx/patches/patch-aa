@@ -68,7 +68,7 @@ $NetBSD: patch-aa,v 1.6 2013/09/11 15:50:32 ryoon Exp $
  $(1):
  	$(if $(quiet),@echo "    [AR] $$@")
 -	$(qexec)$$(AR) $$(ARFLAGS) $$@ $$?
-+	$(qexec)${LIBTOOL} --mode=link $(CC) $(LDFLAGS) -Wl,-Bsymbolic -o $$(patsubst %.a,%.la,$$@) \
++	$(qexec)${LIBTOOL} --mode=link $(CC) $(LDFLAGS) -o $$(patsubst %.a,%.la,$$@) \
 +		$$(patsubst %.o,%.lo,$$?) -rpath $(PREFIX)/lib $$(extralibs) \
 +		-version-info $(VERSION_MAJOR):$(VERSION_MINOR):$(VERSION_PATCH)
  endef
