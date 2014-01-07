@@ -15,6 +15,7 @@ USE_LIBTOOL=		yes
 USE_TOOLS+=		pkg-config
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--without-docs
+CONFIGURE_ARGS+=	--disable-werror 
 PKGCONFIG_OVERRIDE+=	libwps-0.2.pc.in
 
 .include "../../mk/compiler.mk"
