@@ -79,5 +79,5 @@ http://paste.unixhub.net/index.php/6dP
 
 
 
-`$ createbuildlink > buildlink3.mk` # This is needed when ports are depends           
+`$ createbuildlink > buildlink3.mk` # This is needed when ports are depends    
 
