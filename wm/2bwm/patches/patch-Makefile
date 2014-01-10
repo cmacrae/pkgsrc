@@ -1,0 +1,12 @@
+$NetBSD$
+
+--- Makefile.orig	2014-01-07 17:38:41.000000000 +0000
++++ Makefile
+@@ -10,7 +10,6 @@ LDFLAGS+=-L/usr/local/lib -lxcb -lxcb-ra
+ 		 -lxcb-icccm -lxcb-util -lxcb-ewmh
+ 
+ RM=/bin/rm
+-PREFIX=/usr/local
+ MANPREFIX=$(PREFIX)/man
+ TWOBWM_PATH=${PREFIX}/bin/2bwm
+ 

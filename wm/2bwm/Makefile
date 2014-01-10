@@ -1,8 +1,14 @@
 # $NetBSD$
 
-DISTNAME=	2bwm-0.1
+PKGNAME=	2bwm-0.1
 CATEGORIES=	wm
-MASTER_SITES=	http://saveosx.org/packages/Darwin/2013Q2/x86_64/distfiles/
+#MASTER_SITES=	http://saveosx.org/packages/Darwin/2013Q2/x86_64/distfiles/
+GHCOMMIT=	785839eda32de28548165e6f8afb3c0a96655c2b
+DISTNAME=	${GHCOMMIT}
+MASTER_SITES=	https://github.com/venam/2bwm/archive/
+FETCH_USING=	curl
+
+WRKSRC=		${WRKDIR}/2bwm-${GHCOMMIT}
 
 MAINTAINER=	youri.mout@gmail.com
 HOMEPAGE=	http://saveosx.org/packages/Darwin/2013Q2/x86_64/distfiles/

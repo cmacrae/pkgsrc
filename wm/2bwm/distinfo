@@ -1,5 +1,6 @@
 $NetBSD$
 
-SHA1 (2bwm-0.1.tar.gz) = 75dcb0d45b82e11dc2e7d1e05a90ef14f71f940c
-RMD160 (2bwm-0.1.tar.gz) = 00303e1cb44ce09e6a8254af1bd7938207f3aa9c
-Size (2bwm-0.1.tar.gz) = 27565 bytes
+SHA1 (785839eda32de28548165e6f8afb3c0a96655c2b.tar.gz) = 763980d9a48ba425be125f4cd69f5c9a738240fd
+RMD160 (785839eda32de28548165e6f8afb3c0a96655c2b.tar.gz) = 6e281e8ea5010956baa325cb23d692042bb32639
+Size (785839eda32de28548165e6f8afb3c0a96655c2b.tar.gz) = 35173 bytes
+SHA1 (patch-Makefile) = 1e821904163283a79b4dd28e51f2abfebdae6299
