@@ -2,10 +2,10 @@
 
 DISTNAME=	gcc-4.7.3
 CATEGORIES=	lang
-MASTER_SITES=	ftp://ftp.irisa.fr/pub/mirrors/gcc.gnu.org/gcc/releases/gcc-4.7.3/
+MASTER_SITES=	ftp://ftp.gnu.org/gnu/gcc/${DISTNAME}/
 
 MAINTAINER=	youri.mout@gmail.com
-HOMEPAGE=	ftp://ftp.irisa.fr/pub/mirrors/gcc.gnu.org/gcc/releases/gcc-4.7.3/
+HOMEPAGE=	http://gcc.gnu.org
 COMMENT=	The GNU Compiler Collection (GCC) is a compiler system produced by the GNU Project	
 LICENSE=	gnu-gpl-v3
 
