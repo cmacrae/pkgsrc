@@ -45,11 +45,6 @@ do-install:
 .for i in declare.h fortify.h ini.h lp_*.h lpkit.h lpsolve.h ufortify.h yacc_read.h
 	${INSTALL_DATA} ${WRKSRC}/${i} ${DESTDIR}${PREFIX}/include/lpsolve
 .endfor
-.for i in liblpsolve55.a liblpsolve55.so
-	${INSTALL_LIB} ${WRKSRC}/lpsolve55/bin/${LPSOLVE_ARCH}/${i} \
-		${DESTDIR}${PREFIX}/lib
-.endfor
-	${LN} -sf liblpsolve55.so ${DESTDIR}${PREFIX}/lib/liblpsolve55.so.1
 
 .include "../../mk/dlopen.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
