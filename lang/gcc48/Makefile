@@ -2,11 +2,10 @@
 
 DISTNAME=	gcc-4.8.2
 CATEGORIES=	lang
-MASTER_SITES=	http://ftpmirror.gnu.org/gcc/gcc-4.8.2/
-EXTRACT_SUFX=	.tar.bz2
+MASTER_SITES=	ftp://ftp.gnu.org/gnu/gcc/${DISTNAME}/
 
 MAINTAINER=	youri.mout@gmail.com
-HOMEPAGE=	http://ftpmirror.gnu.org/gcc/gcc-4.8.2/
+HOMEPAGE=	http://gcc.gnu.org
 COMMENT=	The GNU Compiler Collection (GCC) is a compiler system produced by the GNU Project
 LICENSE=	gnu-gpl-v3
 
