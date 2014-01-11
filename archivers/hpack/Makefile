@@ -1,5 +1,6 @@
 # $NetBSD: Makefile,v 1.37 2012/09/11 19:46:55 asau Exp $
 
+BROKEN=		Duplicate symbols error
 DISTNAME=	hpack79src
 PKGNAME=	hpack-0.79
 PKGREVISION=	2

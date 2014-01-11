@@ -1,5 +1,6 @@
 # $NetBSD: Makefile,v 1.2 2011/05/28 10:15:14 cheusov Exp $
 
+BROKEN=		Missing headers
 PKGNAME=	heirloom-tar-${HEIRLOOM_VER}
 CATEGORIES=	sysutils
 LICENSE=	original-bsd

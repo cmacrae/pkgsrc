@@ -1,6 +1,7 @@
 # $NetBSD: Makefile,v 1.48 2013/07/21 10:31:26 shattered Exp $
 #
 
+BROKEN=		compiler error
 DISTNAME=	cpio-2.11
 PKGNAME=	g${DISTNAME}
 PKGREVISION=	2

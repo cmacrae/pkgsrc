@@ -1,5 +1,6 @@
 # $NetBSD: Makefile,v 1.35 2012/09/11 19:47:03 asau Exp $
 
+BROKEN=		Compiler error
 DISTNAME=	zoo-2.10pl1
 PKGNAME=	zoo-2.10.1
 PKGREVISION=	4

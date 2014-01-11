@@ -1,5 +1,6 @@
 # $NetBSD: Makefile,v 1.28 2013/02/06 23:21:35 jperkin Exp $
 
+BROKEN=		Linking error
 DISTNAME=	libcomprex-0.3.3
 PKGREVISION=	7
 CATEGORIES=	archivers
