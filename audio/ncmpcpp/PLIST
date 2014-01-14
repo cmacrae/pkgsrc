@@ -1,1 +1,7 @@
-@comment $NetBSD$
+bin/ncmpcpp
+man/man1/ncmpcpp.1
+share/doc/ncmpcpp/AUTHORS
+share/doc/ncmpcpp/config
+share/doc/ncmpcpp/COPYING
+share/doc/ncmpcpp/keys
+share/doc/ncmpcpp/NEWS

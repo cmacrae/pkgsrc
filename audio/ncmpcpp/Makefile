@@ -15,9 +15,10 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c++ c
 USE_TOOLS=	pkg-config
-CONFIGURE_ARGS+= --with-curl --with-taglib --with-iconv 
+CONFIGURE_ARGS+= --with-curl --without-taglib --with-iconv 
 CONFIGURE_ARGS+= --enable-unicode --enable-clock --enable-visualizer --enable-outputs
 
 .include "../../audio/libmpdclient/buildlink3.mk"
-.include "../../audio/taglib/buildlink3.mk"
+#.include "../../audio/taglib/buildlink3.mk"
+.include "../../converters/libiconv/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
