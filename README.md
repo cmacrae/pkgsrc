@@ -28,8 +28,10 @@
 - wmfs
 - spectrwm - [yrmt] - DONE
 - bspwm - [yrmt] - DONE
-- hlwm
+- hlwm - [yrmt] - DONE
 - monsterwm
+- stumpwm
+- subtle
 - i2p
 - mpv movie player
 
@@ -42,6 +44,7 @@
 
 - do not have an /opt or /usr/local when compiling ports!
 - use this mk.conf! (/usr/pkg/etc/mk.conf)
+- use this [sys/endian.h](https://gist.github.com/yinyin/2027912/raw/06a06632d44db6400a7b006090fcb2f53eca80ee/endian.h)
 
 http://paste.unixhub.net/index.php/6dP
 
@@ -81,3 +84,4 @@ http://paste.unixhub.net/index.php/6dP
 
 `$ createbuildlink > buildlink3.mk` # This is needed when ports are depends    
 
+──── git status -s|awk -F/ '{gsub(/\?\?\ |\ M\ |\ D\ /,"");print "cd "$1"/"$2"; sudo bmake clean; cd ../../"}'|zsh  
