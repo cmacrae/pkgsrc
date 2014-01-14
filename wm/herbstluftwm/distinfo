@@ -1,0 +1,6 @@
+$NetBSD$
+
+SHA1 (herbstluftwm-0.5.3.tar.gz) = 302bf87ae699bc74fc7dc40f29526373d094473f
+RMD160 (herbstluftwm-0.5.3.tar.gz) = 5411d9524bf3174f27cceca33c139f1f16311d14
+Size (herbstluftwm-0.5.3.tar.gz) = 205515 bytes
+SHA1 (patch-config.mk) = 8c5a8ef0fef4b4d2612c14aec8d7f73b309c7e23
