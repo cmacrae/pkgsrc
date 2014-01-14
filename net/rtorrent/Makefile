@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.56 2013/09/18 16:33:08 joerg Exp $
 
-DISTNAME=	rtorrent-0.9.2
+DISTNAME=	rtorrent-0.9.3
 PKGREVISION=	4
 CATEGORIES=	net
 MASTER_SITES=	${HOMEPAGE:=downloads/}
@@ -10,6 +10,7 @@ HOMEPAGE=	http://libtorrent.rakshasa.no/
 COMMENT=	Ncurses based torrent client with support for sessions
 LICENSE=	gnu-gpl-v2
 
+ONLY_FOR_COMPILER=	gcc
 USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes
 USE_NCURSES=		yes # chgat
