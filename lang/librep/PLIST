@@ -35,10 +35,10 @@ lib/rep/rules.mk
 lib/rep/sdbm.la
 lib/rep/tables.la
 lib/rep/timers.la
-man/man1/rep-remote.1
-man/man1/rep-xgettext.1
-man/man1/rep.1
-man/man1/repdoc.1
+share/man/man1/rep-remote.1.gz
+share/man/man1/rep-xgettext.1.gz
+share/man/man1/rep.1.gz
+share/man/man1/repdoc.1.gz
 share/emacs/site-lisp/rep-debugger.el
 share/rep/lisp/cgi-get.jl
 share/rep/lisp/cgi-get.jlc
