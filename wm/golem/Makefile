@@ -1,6 +1,7 @@
 # $NetBSD: Makefile,v 1.31 2012/10/23 10:24:14 wiz Exp $
 #
 
+BROKEN=		Link error
 DISTNAME=	golem-0.0.5
 PKGREVISION=	5
 CATEGORIES=	wm
