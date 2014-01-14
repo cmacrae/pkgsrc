@@ -108,7 +108,7 @@ GCC_REQD+=	20120614
 
 # _GCC_DIST_VERSION is the highest version of GCC installed by the pkgsrc
 # without the PKGREVISIONs.
-_GCC_DIST_NAME:=	gcc48
+_GCC_DIST_NAME:=	gcc49
 .include "../../lang/${_GCC_DIST_NAME}/version.mk"
 _GCC_DIST_VERSION:=	${${_GCC_DIST_NAME:tu}_DIST_VERSION}
 
