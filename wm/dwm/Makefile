@@ -11,7 +11,7 @@ COMMENT=	Dynamic window manager
 LICENSE=	mit
 
 NO_CONFIGURE=	yes
-
+CFLAGS.Darwin+=	"-Wno-variadic-macros"
 # Adjust config.mk
 SUBST_CLASSES+=		makefile
 SUBST_STAGE.makefile=	pre-build

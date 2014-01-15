@@ -11,6 +11,7 @@ LICENSE=	modified-bsd
 
 USE_TOOLS+=	gmake
 MAKEFLAGS+=	PREFIX=${PREFIX} SYSCONFDIR=${PREFIX}/etc MANDIR=${PREFIX}/man
+CFLAGS.Darwin+= "-Wno-variadic-macros"
 
 .include "../../x11/libXext/buildlink3.mk"
 .include "../../x11/libXinerama/buildlink3.mk"
