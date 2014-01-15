@@ -1,5 +1,6 @@
 # TODO ports for Darwin x86_64 !
 
+- ghc - [yrmt] 
 - gcc-48 - [yrmt] - DONE
 - valgrind
 - g95
