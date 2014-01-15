@@ -35,6 +35,7 @@ CONF_FILES+=		${EGDIR}/${f} ${PKG_SYSCONFDIR}/${f}
 .endfor
 
 LDFLAGS.SunOS+=		-lsocket -lnsl
+LDFLAGS.Darwin+=	-liconv
 
 SUBST_CLASSES+=		vars
 SUBST_STAGE.vars=	pre-build
@@ -45,6 +46,7 @@ post-build:
 	mv ${WRKSRC}/man/wmii.1 ${WRKSRC}/man/wmii.tbl
 	${TBL} ${WRKSRC}/man/wmii.tbl > ${WRKSRC}/man/wmii.1
 
+.include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/libixp/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/libXext/buildlink3.mk"
