@@ -3,11 +3,11 @@
 - gcc-48 - [yrmt] - DONE
 - valgrind
 - g95
-- rtorrent
+- rtorrent - [yrmt] - DONE
 - qt4 - [yrmt] - qt4-lib done
 - qt5 - [yrmt]
-- herbstluftwm
-- i3
+- herbstluftwm - [yrmt] - DONE
+- i3 - [yrmt] - DONE
 - openbox - [yrmt] - DONE
 - subtle
 - AwesomeWM
@@ -25,13 +25,13 @@
 - ctwm - [yrmt] - DONE
 - rebuild X ports to use pkgsrc X libraries. - [yrmt] - DONE
 - xenoara cwm - [yrmt]  - DONE
-- wmfs
+- wmfs - [yrmt] - DONE
 - spectrwm - [yrmt] - DONE
 - bspwm - [yrmt] - DONE
 - hlwm - [yrmt] - DONE
-- monsterwm
-- stumpwm
-- subtle
+- monsterwm - [yrmt] - DONE
+- stumpwm - [yrmt] - DONE
+- xmonad
 - i2p
 - mpv movie player
 
