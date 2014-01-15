@@ -1,0 +1,4 @@
+bin/wmfs
+etc/wmfs/wmfsrc
+man/man1/wmfs.1
+share/xsessions/wmfs.desktop
