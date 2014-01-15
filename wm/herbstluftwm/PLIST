@@ -4,6 +4,9 @@ etc/bash_completion.d/herbstclient-completion
 etc/xdg/herbstluftwm/autostart
 etc/xdg/herbstluftwm/panel.sh
 etc/xdg/herbstluftwm/restartpanels.sh
+man/man1/herbstclient.1
+man/man1/herbstluftwm.1
+man/man7/herbstluftwm-tutorial.7
 share/doc/herbstluftwm/BUGS
 share/doc/herbstluftwm/examples/dmenu.sh
 share/doc/herbstluftwm/examples/dumpbeautify.sh
@@ -25,8 +28,5 @@ share/doc/herbstluftwm/herbstluftwm.html
 share/doc/herbstluftwm/LICENSE
 share/doc/herbstluftwm/NEWS
 share/doc/herbstluftwm/README
-share/man/man1/herbstclient.1
-share/man/man1/herbstluftwm.1
-share/man/man7/herbstluftwm-tutorial.7
 share/xsessions/herbstluftwm.desktop
 share/zsh/functions/Completion/X/_herbstclient

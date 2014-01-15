@@ -10,7 +10,7 @@ COMMENT=	herbstluftwm is a manual tiling window manager for X11 using Xlib and G
 LICENSE=	modified-bsd
 
 USE_TOOLS+=	gmake
-BUILD_MAKE_FLAGS+=	PREFIX=${DESTDIR}
+MAKEFLAGS+=	PREFIX=${PREFIX} SYSCONFDIR=${PREFIX}/etc MANDIR=${PREFIX}/man
 
 .include "../../x11/libXext/buildlink3.mk"
 .include "../../x11/libXinerama/buildlink3.mk"
