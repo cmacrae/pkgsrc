@@ -44,10 +44,8 @@
 # Remarks:
 
 - do not have an /opt or /usr/local when compiling ports!
-- use this mk.conf! (/usr/pkg/etc/mk.conf)
+- use this [mk.conf!](http://paste.unixhub.net/index.php/s9wmJ)
 - use this [sys/endian.h](https://gist.github.com/yinyin/2027912/raw/06a06632d44db6400a7b006090fcb2f53eca80ee/endian.h)
-
-http://paste.unixhub.net/index.php/6dP
 
 # pkgsrc instructions: 
 
