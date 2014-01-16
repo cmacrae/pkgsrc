@@ -11,7 +11,7 @@
 - i3 - [yrmt] - DONE
 - openbox - [yrmt] - DONE
 - subtle
-- AwesomeWM
+- AwesomeWM - [yrmt] - DONE
 - cmus ( non working in ports ) - [akacase]
 - R
 - tint2
