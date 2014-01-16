@@ -8,15 +8,11 @@ PKGREVISION=	19
 CATEGORIES=	x11
 COMMENT=	Xfce widget library
 
-PKGCONFIG_OVERRIDE=	libxfce4kbd-private/libxfce4kbd-private-1.0.pc.in
-PKGCONFIG_OVERRIDE+=	libxfcegui4/libxfcegui4-1.0.pc.in
 
 CONFIGURE_ARGS+=	--disable-gladeui
 
 EGDIR=			${XFCE4_EGBASE}/xfconf/xfce-perchannel-xml
 PKG_SYSCONFSUBDIR=	xdg
-CONF_FILES=		${EGDIR}/xfce4-keyboard-shortcuts.xml \
-	${PKG_SYSCONFDIR}/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
 
 MAKE_DIRS+=	${PKG_SYSCONFDIR} ${PREFIX}/include/xfce4
 MAKE_DIRS+=	${XFCE4_EGBASE} ${XFCE4_EGBASE:Q}/xfconf ${EGDIR}

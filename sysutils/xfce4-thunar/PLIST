@@ -322,7 +322,6 @@ share/doc/Thunar/html/zh_TW/support.html
 share/doc/Thunar/html/zh_TW/the-file-manager-window.html
 share/doc/Thunar/html/zh_TW/using-removable-media.html
 share/doc/Thunar/html/zh_TW/working-with-files-and-folders.html
-share/examples/xfce4/Thunar/uca.xml
 share/gtk-doc/html/thunar-vfs/ThunarVfsGroup.html
 share/gtk-doc/html/thunar-vfs/ThunarVfsJob.html
 share/gtk-doc/html/thunar-vfs/ThunarVfsMimeAction.html
@@ -444,3 +443,4 @@ share/pixmaps/Thunar/Thunar-about-logo.png
 share/pixmaps/Thunar/Thunar-fallback-icon.png
 share/thumbnailers/thunar-vfs-font-thumbnailer-1.desktop
 share/xfce4/panel-plugins/thunar-tpa.desktop
+etc/xdg/Thunar/uca.xml

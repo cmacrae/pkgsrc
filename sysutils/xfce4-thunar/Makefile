@@ -17,7 +17,6 @@ PKG_SYSCONFSUBDIR=	xdg/Thunar
 EGDIR=			${XFCE4_EGBASE}/Thunar
 
 MAKE_DIRS+=	${XFCE4_EGBASE} ${PREFIX}/share/xfce4
-CONF_FILES=	${EGDIR}/uca.xml ${PKG_SYSCONFDIR}/uca.xml
 
 .include "options.mk"
 

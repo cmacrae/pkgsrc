@@ -53,7 +53,6 @@ lib/libxfce4kbd-private.la
 lib/libxfcegui4.la
 lib/pkgconfig/libxfce4kbd-private-1.0.pc
 lib/pkgconfig/libxfcegui4-1.0.pc
-share/examples/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
 share/gtk-doc/html/libxfcegui4/XfceAboutDialog.html
 share/gtk-doc/html/libxfcegui4/XfceAppMenuItem.html
 share/gtk-doc/html/libxfcegui4/XfceFramebox.html

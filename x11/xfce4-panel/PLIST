@@ -27,14 +27,6 @@ lib/xfce4/panel-plugins/libsystray.la
 lib/xfce4/panel-plugins/libtasklist.la
 lib/xfce4/panel-plugins/libwindowlist.la
 share/applications/xfce4-panel-manager.desktop
-share/examples/xfce4/panel/clock-14.rc
-share/examples/xfce4/panel/launcher-10.rc
-share/examples/xfce4/panel/launcher-7.rc
-share/examples/xfce4/panel/launcher-8.rc
-share/examples/xfce4/panel/launcher-9.rc
-share/examples/xfce4/panel/panels.xml
-share/examples/xfce4/panel/systray-4.rc
-share/examples/xfce4/panel/xfce4-menu-5.rc
 share/gtk-doc/html/libxfce4panel/XfceArrowButton.html
 share/gtk-doc/html/libxfce4panel/XfceExternalPanelPlugin.html
 share/gtk-doc/html/libxfce4panel/XfceHVBox.html

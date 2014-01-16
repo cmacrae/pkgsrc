@@ -7,6 +7,7 @@ PKGREVISION=	16
 CATEGORIES=	x11
 COMMENT=	Xfce basic library
 
+CONFIGURE_ARGS+=	--disable-visibility
 PKGCONFIG_OVERRIDE=	libxfce4util/libxfce4util-1.0.pc.in
 
 MAKE_DIRS+=	${PREFIX}/include/xfce4
