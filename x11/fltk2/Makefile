@@ -1,5 +1,6 @@
 # $NetBSD: Makefile,v 1.18 2013/06/06 12:53:41 wiz Exp $
 
+BROKEN=		Broken port
 VERS=		6129
 PKGREVISION=	12
 DISTNAME=	fltk-2.0.x-r${VERS}
