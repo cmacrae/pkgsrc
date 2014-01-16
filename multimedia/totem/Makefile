@@ -3,7 +3,8 @@
 
 .include "Makefile.common"
 
-PKGREVISION=	22
+BROKEN=		duplicate symbols 
+PKGREVISION=	25
 
 DEPENDS+=	gst-plugins0.10-soup-[0-9]*:../../net/gst-plugins0.10-soup
 

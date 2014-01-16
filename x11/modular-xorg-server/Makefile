@@ -1,5 +1,6 @@
 # $NetBSD: Makefile,v 1.80.4.1 2013/10/09 07:36:29 spz Exp $
 
+BROKEN=		Not compatible with Darwin
 DISTNAME=	xorg-server-1.12.4
 PKGNAME=	modular-${DISTNAME}
 PKGREVISION=	3
@@ -74,7 +75,7 @@ CONFIGURE_ARGS+=	--disable-kdrive
 CONFIGURE_ARGS+=	--disable-xfake
 CONFIGURE_ARGS+=	--disable-xfbdev
 
-CONFIGURE_ARGS+=	--with-int10=x86emu
+#CONFIGURE_ARGS+=	--with-int10=x86emu
 
 CONFIGURE_ENV+=		APP_MAN_SUFFIX=1 FILE_MAN_SUFFIX=5
 CONFIGURE_ENV+=		DRIVER_MAN_SUFFIX=4
@@ -113,7 +114,7 @@ BUILDLINK_API_DEPENDS.xextproto+=      	xextproto>=7.1.99
 BUILDLINK_API_DEPENDS.recordproto+=     recordproto>=1.13.99.1
 BUILDLINK_API_DEPENDS.scrnsaverproto+=  scrnsaverproto>=1.1
 BUILDLINK_API_DEPENDS.resourceproto+=   resourceproto>=1.2.0
-BUILDLINK_API_DEPENDS.dri+=      	dri>=7.8
+#BUILDLINK_API_DEPENDS.dri+=      	dri>=7.8
 BUILDLINK_API_DEPENDS.xfont+=      	xfont>=1.4.2
 BUILDLINK_API_DEPENDS.glproto+=		glproto>=1.4.16
 BUILDLINK_API_DEPENDS.inputproto+=	inputproto>=2.1.99.6
@@ -122,7 +123,7 @@ BUILDLINK_API_DEPENDS.pixman+=		pixman>=0.21.8
 BUILDLINK_API_DEPENDS.randrproto+=	randrproto>=1.4.0
 BUILDLINK_API_DEPENDS.renderproto+=	renderproto>=0.11
 BUILDLINK_API_DEPENDS.xf86dgaproto+=	xf86dgaproto>=2.0.3
-BUILDLINK_API_DEPENDS.xf86driproto+=	xf86driproto>=2.1.0
+#BUILDLINK_API_DEPENDS.xf86driproto+=	xf86driproto>=2.1.0
 
 BUILD_DEPENDS+=		tradcpp-[0-9]*:../../devel/tradcpp
 CONFIGURE_ENV+=		ac_cv_path_RAWCPP="${PREFIX}/bin/tradcpp -Uunix"
@@ -139,7 +140,7 @@ BUILDLINK_API_DEPENDS.libpciaccess+=	libpciaccess>=0.11.0
 .include "../../x11/bigreqsproto/buildlink3.mk"
 .include "../../x11/compositeproto/buildlink3.mk"
 .include "../../x11/damageproto/buildlink3.mk"
-.include "../../x11/dri2proto/buildlink3.mk"
+#.include "../../x11/dri2proto/buildlink3.mk"
 .include "../../x11/evieext/buildlink3.mk"
 .include "../../x11/fixesproto/buildlink3.mk"
 .include "../../x11/fontsproto/buildlink3.mk"
@@ -156,7 +157,7 @@ BUILDLINK_API_DEPENDS.libXext+=	libXext>=1.1.1
 .include "../../x11/libXxf86misc/buildlink3.mk"
 .include "../../x11/libXxf86vm/buildlink3.mk"
 .include "../../x11/libXinerama/buildlink3.mk"
-.include "../../x11/libdrm/buildlink3.mk"
+#.include "../../x11/libdrm/buildlink3.mk"
 .include "../../x11/libxkbfile/buildlink3.mk"
 .include "../../x11/libxkbui/buildlink3.mk"
 .include "../../x11/pixman/buildlink3.mk"
@@ -172,7 +173,7 @@ BUILDLINK_API_DEPENDS.libXext+=	libXext>=1.1.1
 .include "../../x11/kbproto/buildlink3.mk"
 .include "../../x11/xf86bigfontproto/buildlink3.mk"
 .include "../../x11/xf86dgaproto/buildlink3.mk"
-.include "../../x11/xf86driproto/buildlink3.mk"
+#.include "../../x11/xf86driproto/buildlink3.mk"
 .include "../../x11/xf86miscproto/buildlink3.mk"
 .include "../../x11/xf86vidmodeproto/buildlink3.mk"
 .include "../../x11/xineramaproto/buildlink3.mk"

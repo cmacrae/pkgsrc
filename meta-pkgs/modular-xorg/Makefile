@@ -14,10 +14,10 @@ LICENSE=	2-clause-bsd
 META_PACKAGE=	yes
 
 DEPENDS+=	modular-xorg-libs>=1.0:../../meta-pkgs/modular-xorg-libs
-DEPENDS+=	modular-xorg-drivers>=1.12:../../meta-pkgs/modular-xorg-drivers
+#DEPENDS+=	modular-xorg-drivers>=1.12:../../meta-pkgs/modular-xorg-drivers
 DEPENDS+=	modular-xorg-apps>=1.5:../../meta-pkgs/modular-xorg-apps
 DEPENDS+=	modular-xorg-fonts>=1.1:../../meta-pkgs/modular-xorg-fonts
-DEPENDS+=	modular-xorg-server>=1.12.4:../../x11/modular-xorg-server
+#DEPENDS+=	modular-xorg-server>=1.12.4:../../x11/modular-xorg-server
 DEPENDS+=	xorg-docs-[0-9]*:../../misc/xorg-docs
 
 .include "../../mk/bsd.pkg.mk"

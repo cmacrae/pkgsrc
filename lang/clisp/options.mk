@@ -9,7 +9,7 @@ PKG_SUPPORTED_OPTIONS+=		readline
 
 PKG_SUPPORTED_OPTIONS+=		gmalloc
 
-PKG_SUGGESTED_OPTIONS+=		ffcall readline
+PKG_SUGGESTED_OPTIONS+=		readline
 
 # CLISP doesn't work with jemalloc:
 .if ${OPSYS} == "NetBSD"

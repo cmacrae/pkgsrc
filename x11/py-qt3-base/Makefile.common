@@ -17,11 +17,11 @@ HOMEPAGE=		http://www.riverbankcomputing.com/software/pyqt/intro
 
 .include "../../mk/bsd.prefs.mk"
 
-.if ${OPSYS} == "Darwin"
-DISTNAME=		PyQt-mac-gpl-${PYQT_VERSION}
-.else
+#.if ${OPSYS} == "Darwin"
+#DISTNAME=		PyQt-mac-gpl-${PYQT_VERSION}
+#.else
 DISTNAME=		PyQt-x11-gpl-${PYQT_VERSION}
-.endif
+#.endif
 
 USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake

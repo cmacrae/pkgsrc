@@ -1,6 +1,7 @@
 # $NetBSD: Makefile,v 1.15 2012/10/31 11:16:33 asau Exp $
 #
 
+BROKEN=		Makefile error
 DISTNAME=	acunia-jam-1.0
 PKGREVISION=	1
 CATEGORIES=	devel

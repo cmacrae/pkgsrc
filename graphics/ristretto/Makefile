@@ -20,6 +20,7 @@ USE_TOOLS+=		gmake pkg-config msgfmt perl intltool
 
 LDFLAGS.DragonFly=	-lX11
 LDFLAGS.SunOS=		-lX11
+LDFLAGS.Darwin=		-lX11
 
 .include "../../devel/xfce4-dev-tools/buildlink3.mk"
 .include "../../graphics/libexif/buildlink3.mk"
