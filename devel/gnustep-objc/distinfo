@@ -1,5 +1,5 @@
 $NetBSD: distinfo,v 1.8 2012/10/22 02:13:06 rh Exp $
 
-SHA1 (libobjc2-1.6.1.tar.bz2) = 02a6cf02f620530ecd64f32dca348def92412b2b
-RMD160 (libobjc2-1.6.1.tar.bz2) = 7babdba063d5377125ffd5b9481e074c32a8cf10
-Size (libobjc2-1.6.1.tar.bz2) = 116263 bytes
+SHA1 (43e81c1bf90036d37ade3f970250bb9da501c1dc.tar.gz) = 9fc0cd787df8e3e21a51e8bd645addacde85df06
+RMD160 (43e81c1bf90036d37ade3f970250bb9da501c1dc.tar.gz) = 3bde53de6c70898feaa078fa92df11e60de6e9b4
+Size (43e81c1bf90036d37ade3f970250bb9da501c1dc.tar.gz) = 172305 bytes
