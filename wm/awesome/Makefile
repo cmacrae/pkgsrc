@@ -1,7 +1,7 @@
 # $NetBSD: Makefile,v 1.43 2013/07/22 19:47:18 degroote Exp $
 #
 
-BROKEN=		Compiler error
+#BROKEN=		Compiler error
 DISTNAME=	awesome-3.5.1
 CATEGORIES=	x11 wm
 MASTER_SITES=	http://awesome.naquadah.org/download/
@@ -20,6 +20,7 @@ USE_LANGUAGES=	c c++
 
 PKG_SYSCONFSUBDIR=	xdg/awesome
 
+MAKE_ENV=	AWESOME_IGNORE_LGI=1
 CMAKE_ARGS+=	-DWITH_DBUS=OFF
 CMAKE_ARGS+=	-DSYSCONFDIR=${PKG_SYSCONFDIR:C/\/xdg\/awesome//}
 CMAKE_ARGS+=	-DCOMPRESS_MANPAGES=${MANZ:Q}
