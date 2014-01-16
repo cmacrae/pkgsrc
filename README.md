@@ -52,6 +52,7 @@
 ###TODO
 
 - link /usr/bin/tar to /usr/bin/gnutar
+- links /usr/pkg/include/gettext/libintl.h to /usr/pkg/include/libintl.h
 
 
 ###Patching ports
