@@ -23,7 +23,6 @@ MAINTAINER=		plunky@rya-online.net
 HOMEPAGE=		http://icecc.sourceforge.net/
 COMMENT=		IceWM Control Centre
 
-DEPENDS+=		vim-{gtk,gtk2,kde,motif,xaw}>=${VIM_VERSION}:../../editors/vim-xaw
 DEPENDS+=		${PYPKGPREFIX}-qt3-base-[0-9]*:../../x11/py-qt3-base
 
 USE_LANGUAGES=		c c++

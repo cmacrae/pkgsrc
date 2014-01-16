@@ -1,6 +1,7 @@
 # $NetBSD: Makefile,v 1.43 2013/07/22 19:47:18 degroote Exp $
 #
 
+BROKEN=		Compiler error
 DISTNAME=	awesome-3.5.1
 CATEGORIES=	x11 wm
 MASTER_SITES=	http://awesome.naquadah.org/download/
@@ -47,6 +48,7 @@ BUILD_DEPENDS+=	docbook-xml-[0-9]*:../../textproc/docbook-xml
 DEPENDS+=		lua-gi-[0-9]*:../../devel/lua-gi
 
 LDFLAGS.SunOS+=		-liconv
+LDFLAGS.Darwin+=		-liconv
 
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
@@ -64,5 +66,6 @@ LDFLAGS.SunOS+=		-liconv
 .include "../../x11/xcb-util-keysyms/buildlink3.mk"
 .include "../../x11/xcb-util-wm/buildlink3.mk"
 .include "../../x11/startup-notification/buildlink3.mk"
+.include "../../devel/gobject-introspection/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

@@ -1,6 +1,7 @@
 # $NetBSD: Makefile,v 1.34 2013/07/05 13:29:43 ryoon Exp $
 #
 
+#BROKEN=			Lack of sys/endian.h on Darwin
 DISTNAME=		3ddesktop-0.2.9
 PKGREVISION=		12
 CATEGORIES=		wm

@@ -1,6 +1,7 @@
 # $NetBSD: Makefile,v 1.4 2012/10/23 10:24:14 wiz Exp $
 #
 
+BROKEN=		Compiler error
 DISTNAME=	obpager-1.8
 PKGREVISION=	1
 CATEGORIES=	wm

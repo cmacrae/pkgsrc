@@ -1,5 +1,6 @@
 # $NetBSD: Makefile,v 1.11 2013/07/05 14:27:56 wiz Exp $
 
+BROKEN=		Compile error
 DISTNAME=	notion-3-2013030200-src
 PKGNAME=	${DISTNAME:S/3-/3./:S/-src//}
 CATEGORIES=	wm

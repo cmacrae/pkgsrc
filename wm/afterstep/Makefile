@@ -1,5 +1,6 @@
 # $NetBSD: Makefile,v 1.71 2013/09/02 19:51:27 adam Exp $
 
+BROKEN=		Compiler error
 DISTNAME=	AfterStep-2.2.11
 PKGNAME=	${DISTNAME:S/AfterStep/afterstep/}
 PKGREVISION=	5

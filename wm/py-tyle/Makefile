@@ -1,6 +1,7 @@
 # $NetBSD: Makefile,v 1.10 2012/10/08 12:42:23 asau Exp $
 #
 
+BROKEN=		Broken
 DISTNAME=	pytyle-0.7.5
 PKGNAME=	${DISTNAME:S/py/${PYPKGPREFIX}-/}
 PKGREVISION=	2

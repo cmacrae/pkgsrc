@@ -14,7 +14,7 @@ LICENSE=	gnu-gpl-v2
 #DEPENDS+=	ruby193-rake:../../devel/ruby-rake
 
 USE_RAKE=	yes
-RAKE=		rake193 destdir=${DESTDIR}
+RAKE=		rake destdir=${DESTDIR}
 
 do-build:
 		${RUN} cd ${WRKSRC} && ${RAKE}
