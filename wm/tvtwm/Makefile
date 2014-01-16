@@ -1,5 +1,6 @@
 # $NetBSD: Makefile,v 1.20 2012/10/23 10:24:15 wiz Exp $
 
+BROKEN=		Compiler error
 DISTNAME=	tvtwm.pl11
 PKGNAME=	tvtwm-11
 PKGREVISION=	3

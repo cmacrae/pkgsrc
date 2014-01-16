@@ -1,5 +1,6 @@
 # $NetBSD: Makefile,v 1.47 2013/07/15 02:02:29 ryoon Exp $
 
+BROKEN=		Undefined Symbols
 DISTNAME=	fvwm-${FVWM_VER}
 PKGREVISION=	8
 CATEGORIES=	x11 wm
