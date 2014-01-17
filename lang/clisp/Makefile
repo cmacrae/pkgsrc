@@ -54,6 +54,7 @@ CONFIGURE_ARGS+=	--disable-mmap
 USE_TOOLS+=	bash
 CONFIG_SHELL=	${TOOLS_PATH.bash}
 .endif
+LDFLAGS.Darwin+=	-liconv
 
 post-extract:
 	(cd ${WRKSRC} && ${CP} -p src/gllib/mbrtowc.c modules/syscalls/gllib)

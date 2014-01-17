@@ -6,15 +6,15 @@ GNUSTEP_MK=		#defined
 .ifndef GNUSTEP_SKIP_DEFAULT_OPTIONS
 PKG_OPTIONS_VAR?=	PKG_OPTIONS.gnustep
 PKG_SUPPORTED_OPTIONS+=	fragile
-PKGSRC_COMPILER+=	clang
+#PKGSRC_COMPILER+=	clang
 
 .include "../../mk/bsd.options.mk"
 
-.if empty(PKG_OPTIONS:Mfragile)
-ONLY_FOR_COMPILER=	clang
-BUILDLINK_API_DEPENDS.clang+=   clang>=3.1
-.include "../../lang/clang/buildlink3.mk"
-.endif
+#.if empty(PKG_OPTIONS:Mfragile)
+#ONLY_FOR_COMPILER=	clang
+#BUILDLINK_API_DEPENDS.clang+=   clang>=3.1
+#.include "../../lang/clang/buildlink3.mk"
+#.endif
 .endif
 
 GNUSTEP_SUBDIR=		share/GNUstep

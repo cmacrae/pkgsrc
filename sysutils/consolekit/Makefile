@@ -20,6 +20,7 @@ EGDIR=		${PREFIX}/share/examples/consolekit
 CONF_FILES+=	${EGDIR}/00-primary.seat ${PKG_SYSCONFDIR}/seats.d/00-primary.seat
 CONF_FILES+=	${EGDIR}/ConsoleKit.conf ${PKG_SYSCONFBASE}/dbus-1/system.d/ConsoleKit.conf
 
+NOT_FOR_PLATFORM= Darwin-*-*
 MAKE_DIRS=	${PKG_SYSCONFDIR}/seats.d
 
 BUILD_DEFS+=		VARBASE

@@ -1,5 +1,6 @@
 # $NetBSD: Makefile,v 1.27 2012/10/31 11:16:57 asau Exp $
 
+BROKEN=		Non compatible asm
 DISTNAME=	ffcall-1.10
 PKGREVISION=	2
 CATEGORIES=	devel
