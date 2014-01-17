@@ -9,3 +9,5 @@ SHA1 (patch-ac) = 5dd3db02b265872c6cfb8dc8e47957c3bdfe8224
 SHA1 (patch-ad) = 2f5e03a8f8096358050cf5fb9f27b5e590d77f58
 SHA1 (patch-ae) = 55237ec4c7aa49c313cc0811f345249eeff0f0ed
 SHA1 (patch-af) = f11833b22911f758e7bba214ec6e2bb6943c0f90
+SHA1 (patch-src_utmp.c) = a00d5f2de5368d17ebe0a713fd98abc2e5c22b2e
+SHA1 (patch-src_utmp1.c) = 00ae64ed11a08817a00df0dccaff1893f3222c5c

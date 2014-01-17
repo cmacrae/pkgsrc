@@ -5,3 +5,6 @@ RMD160 (paragui-1.0.4.tar.gz) = c6352dfe99344bf2dc604784ac8ef0a80dbcb5ad
 Size (paragui-1.0.4.tar.gz) = 1089511 bytes
 SHA1 (patch-aa) = f4c72aed471674e0cbed473ecbcee18895a5aaba
 SHA1 (patch-ab) = af89e83ac8a95dc09a5e2c73df30c3be8d54a82a
+SHA1 (patch-test_dropdown.cpp) = 57f0907d9bd6029bc0bf85d3c9e278f2df26528f
+SHA1 (patch-test_layouttest.cpp) = af0a615a996168de78cc2daebe8ca4858bb518c7
+SHA1 (patch-test_writefile.cpp) = 07243800739d854a0fae3a35cdfdc3d2d756d44d

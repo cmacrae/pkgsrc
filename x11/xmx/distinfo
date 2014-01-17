@@ -8,3 +8,4 @@ RMD160 (xmx-jumbo-patch-20120416.gz) = 9dcfd6b971f692512e066800f137946e38370596
 Size (xmx-jumbo-patch-20120416.gz) = 14223 bytes
 SHA1 (patch-clients_xmtg_ui.c) = 6ff5036be15e098f2733d23abccaea2b11a8dd3b
 SHA1 (patch-clients_xmxinit_xmxinit.c) = 010d08b5792888fd1853736529d830585ae8901e
+SHA1 (patch-server_access.c) = d4811612b94bd5b589ef4f70a63f2c81a5a96dc2

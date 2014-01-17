@@ -21,6 +21,7 @@ PTHREAD_OPTS+=		require native
 .include "../../devel/physfs/buildlink3.mk"
 .include "../../graphics/SDL_image/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"
+.include "../../graphics/png/buildlink3.mk"
 .include "../../textproc/expat/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -141,6 +141,11 @@ BUILDLINK_API_DEPENDS.libart+=	libart>=2.3.11
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../mk/omf-scrollkeeper.mk"
 .include "../../x11/gtk2/buildlink3.mk"
+.include "../../x11/libXi/buildlink3.mk"
+.include "../../x11/libXinerama/buildlink3.mk"
+.include "../../x11/libXrandr/buildlink3.mk"
+.include "../../x11/libXcursor/buildlink3.mk"
+.include "../../x11/libXcomposite/buildlink3.mk"
 
 post-install:
 	${INSTALL_DATA} ${FILESDIR}/NetBSD.xpm ${DESTDIR}${PREFIX}/share/pixmaps

@@ -75,4 +75,5 @@ BUILDLINK_API_DEPENDS.gtk2+=		gtk2+>=2.11.5
 .include "../../x11/libXxf86misc/buildlink3.mk"
 .include "../../x11/libXxf86vm/buildlink3.mk"
 .include "../../x11/libgnomekbd/buildlink3.mk"
+.include "../../x11/libXrandr/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

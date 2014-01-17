@@ -6,3 +6,4 @@ Size (mxterm_129.tar.gz) = 743816 bytes
 SHA1 (patch-Tekproc.c) = 28a411a3fcd4a098a60d7406958c9fd629035636
 SHA1 (patch-aa) = 468366b780812910781265a163c5cfca66b20536
 SHA1 (patch-ac) = 1e6f07eee31667c4ed17fdc40ffa92990be60f57
+SHA1 (patch-main.c) = 945360896db8f689387700072102404fc8ab06df

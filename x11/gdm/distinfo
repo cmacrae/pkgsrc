@@ -16,3 +16,4 @@ SHA1 (patch-ar) = 9783e336cd11b34e990291c25f0b70752edec012
 SHA1 (patch-as) = 13135a44949dac9ff23be4c8efb15baffd18b58b
 SHA1 (patch-at) = 4be192597cf1bb129e5b69f27d9d388bcd00b4e0
 SHA1 (patch-common_gdm-config.h) = 3719a2de866d20b46a834cca0dcdbf533d8c4add
+SHA1 (patch-daemon_slave.c) = 4e83afb8f20120bf9bd90202be451b500b1b94b1

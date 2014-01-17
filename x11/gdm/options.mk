@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.gdm
 PKG_SUPPORTED_OPTIONS=	consolekit inet6 pam
-PKG_SUGGESTED_OPTIONS=	consolekit inet6
+PKG_SUGGESTED_OPTIONS=	inet6
 
 .include "../../mk/bsd.options.mk"
 
