@@ -73,6 +73,7 @@ SUBDIR+=	sawfish
 SUBDIR+=	selectwm
 SUBDIR+=	skippy
 SUBDIR+=	spectrwm
+SUBDIR+=	stumpwm
 SUBDIR+=	tvtwm
 SUBDIR+=	twm
 SUBDIR+=	uwm

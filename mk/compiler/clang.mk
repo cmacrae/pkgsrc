@@ -17,7 +17,7 @@ COMPILER_CLANG_MK=	defined
 
 .include "../../mk/bsd.prefs.mk"
 
-CLANGBASE?=		${LOCALBASE}
+CLANGBASE?=		/usr
 LANGUAGES.clang=	# empty
 
 .if exists(${CLANGBASE}/bin/clang)
