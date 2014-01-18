@@ -1,5 +1,6 @@
 # $NetBSD: Makefile,v 1.19 2013/09/20 23:06:07 joerg Exp $
 
+BROKEN=		Compiler error
 DISTNAME=	g95_source
 PKGNAME=	g95-0.93
 PKGREVISION=	4

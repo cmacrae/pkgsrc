@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.irssi
 PKG_SUPPORTED_OPTIONS=	inet6 perl ssl
-PKG_SUGGESTED_OPTIONS=	inet6 perl
+PKG_SUGGESTED_OPTIONS=	inet6 perl ssl
 PKG_OPTIONS_LEGACY_OPTS+=	irssi-perl:perl
 
 .include "../../mk/bsd.options.mk"
