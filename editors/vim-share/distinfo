@@ -8,3 +8,4 @@ SHA1 (patch-auto_configure) = e25c8821182231074033132d70dab077c273d5f8
 SHA1 (patch-configure) = ae5970dec6d557d81da8a8f1da36d05ddc59ca56
 SHA1 (patch-feature.h) = 7fc572f7d94e5342b32b9395c2632fa7ae528c39
 SHA1 (patch-link.sh) = 24db881cea873330a8a3bf672f6135d0835651fd
+SHA1 (patch-os_unix.c) = de406b9f3c70a4298b331675461ec5711df626bc
