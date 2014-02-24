@@ -7,7 +7,7 @@ Before using mlvwm, you'll have to specify the configuration file:
 
 	or
 
-	$ cp ${PREFIX}/share/examples/Mlvwmrc ~/.mlvwmrc
+	$ cp ${PREFIX}/share/examples/mlvwm/Mlvwmrc ~/.mlvwmrc
 
 Enjoy.
 
