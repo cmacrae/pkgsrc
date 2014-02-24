@@ -84,4 +84,4 @@
 
 `$ createbuildlink > buildlink3.mk` # This is needed when ports are depends    
 
-──── git status -s|awk -F/ '{gsub(/\?\?\ |\ M\ |\ D\ /,"");print "cd "$1"/"$2"; sudo bmake clean; cd ../../"}'|zsh  
+git status -s|awk -F/ '{gsub(/\?\?\ |\ M\ |\ D\ /,"");print "cd "$1"/"$2"; sudo bmake clean; cd ../../"}'

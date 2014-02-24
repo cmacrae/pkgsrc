@@ -420,6 +420,7 @@ SUBDIR+=	ssystem
 SUBDIR+=	stalonetray
 SUBDIR+=	startup-notification
 SUBDIR+=	startup-notification010
+SUBDIR+=	sxhkd
 SUBDIR+=	tile
 SUBDIR+=	tint2
 SUBDIR+=	tk
