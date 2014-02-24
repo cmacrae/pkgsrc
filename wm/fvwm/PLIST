@@ -481,21 +481,6 @@ share/fvwm2/perllib/FVWM/Tracker/WindowList.pm
 share/fvwm2/perllib/General/FileSystem.pm
 share/fvwm2/perllib/General/Parse.pm
 share/fvwm2/system.fvwm2rc-sample-95
-share/locale/ar/LC_MESSAGES/FvwmScript.mo
-share/locale/ar/LC_MESSAGES/FvwmTaskBar.mo
-share/locale/ar/LC_MESSAGES/fvwm.mo
-share/locale/de/LC_MESSAGES/FvwmScript.mo
-share/locale/de/LC_MESSAGES/FvwmTaskBar.mo
-share/locale/de/LC_MESSAGES/fvwm.mo
-share/locale/fr/LC_MESSAGES/FvwmScript.mo
-share/locale/fr/LC_MESSAGES/FvwmTaskBar.mo
-share/locale/fr/LC_MESSAGES/fvwm.mo
-share/locale/sv_SE/LC_MESSAGES/FvwmScript.mo
-share/locale/sv_SE/LC_MESSAGES/FvwmTaskBar.mo
-share/locale/sv_SE/LC_MESSAGES/fvwm.mo
-share/locale/zh_CN/LC_MESSAGES/FvwmScript.mo
-share/locale/zh_CN/LC_MESSAGES/FvwmTaskBar.mo
-share/locale/zh_CN/LC_MESSAGES/fvwm.mo
 @pkgdir share/doc/fvwm2/modules/images/FvwmTabs
 @pkgdir share/doc/fvwm2/images/svg_rendering
 @pkgdir share/doc/fvwm2/fvwm
