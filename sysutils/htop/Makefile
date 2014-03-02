@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	htop-osx
-PKGNAME=	htop-git
+PKGNAME=	htop-1.0
 CATEGORIES=	sysutils
 MASTER_SITES=	http://saveosx.org/packages/Darwin/2013Q2/x86_64/distfiles/
 
