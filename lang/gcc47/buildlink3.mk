@@ -1,35 +1,34 @@
-# $NetBSD: buildlink3.mk,v 1.8 2013/01/31 23:34:21 hans Exp $
+# $NetBSD$
+# XXX
+# XXX This file was created automatically using createbuildlink-3.16.
+# XXX After this file has been verified as correct, the comment lines
+# XXX beginning with "XXX" should be removed.  Please do not commit
+# XXX unverified buildlink3.mk files.
+# XXX
+# XXX Packages that only install static libraries or headers should
+# XXX include the following line:
+# XXX
+# XXX	BUILDLINK_DEPMETHOD.gcc?=	build
 
-BUILDLINK_TREE+=	gcc47
+BUILDLINK_TREE+=	gcc
 
-.if !defined(GCC47_BUILDLINK3_MK)
-GCC47_BUILDLINK3_MK:=
+.if !defined(GCC_BUILDLINK3_MK)
+GCC_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.gcc47+=	gcc47>=${_GCC_REQD}
-BUILDLINK_ABI_DEPENDS.gcc47+=	gcc47>=4.7.0
-BUILDLINK_PKGSRCDIR.gcc47=	../../lang/gcc47
-BUILDLINK_DEPMETHOD.gcc47?=	build
+BUILDLINK_API_DEPENDS.gcc+=	gcc>=4.7.3
+BUILDLINK_PKGSRCDIR.gcc?=	../../lang/gcc47
 
-FIND_PREFIX:=	BUILDLINK_PREFIX.gcc47=gcc47
-.include "../../mk/find-prefix.mk"
-BUILDLINK_PASSTHRU_DIRS+=	${BUILDLINK_PREFIX.gcc47}/gcc47
+# XXX
+# XXX Uncomment and keep only the buildlink3 lines below which are directly
+# XXX needed for dependencies to compile, link, and run.  If this package
+# XXX provides a wrappered API or otherwise does not expose the APIs of the
+# XXX buildlink3 lines below to dependencies, remove them.
+# XXX
+#.include "../../math/mpfr/buildlink3.mk"
+#.include "../../math/cloog/buildlink3.mk"
+#.include "../../math/isl/buildlink3.mk"
+#.include "../../math/mpcomplex/buildlink3.mk"
+#.include "../../devel/gmp/buildlink3.mk"
+.endif	# GCC_BUILDLINK3_MK
 
-BUILDLINK_FILES.gcc47=		#empty
-BUILDLINK_AUTO_VARS.gcc47=	no
-
-# Packages that link against shared libraries need a full dependency.
-.if defined(_USE_GCC_SHLIB)
-DEPENDS+=	{gcc47,gcc47-libs}>=${_GCC_REQD}:../../lang/gcc47-libs
-ABI_DEPENDS+=	{gcc47,gcc47-libs}>=4.7.0:../../lang/gcc47-libs
-.endif
-
-pkgbase := gcc47
-.include "../../mk/pkg-build-options.mk"
-.if !empty(PKG_BUILD_OPTIONS.gcc47:Mgcc-java)
-.include "../../devel/zlib/buildlink3.mk"
-.endif
-
-.include "../../mk/dlopen.buildlink3.mk"
-.include "../../mk/pthread.buildlink3.mk"
-.endif # GCC47_BUILDLINK3_MK
-BUILDLINK_TREE+=	-gcc47
+BUILDLINK_TREE+=	-gcc

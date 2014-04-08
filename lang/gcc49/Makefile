@@ -1,11 +1,13 @@
 # $NetBSD$
 
-DISTNAME=	gcc-4.5.4
+DISTNAME=	gcc-4.9-20140105
+PKGNAME=	gcc-4.9
 CATEGORIES=	lang
-MASTER_SITES=	ftp://ftp.gnu.org/gnu/gcc/gcc-4.5.4/
+MASTER_SITES=	ftp://gcc.gnu.org/pub/gcc/snapshots/4.9-20140105/
+EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	youri.mout@gmail.com
-HOMEPAGE=	ftp://ftp.gnu.org/gnu/gcc/gcc-4.5.4/
+HOMEPAGE=	http://gcc.gnu.org
 COMMENT=	The GNU Compiler Collection (GCC) is a compiler system produced by the GNU Project
 LICENSE=	gnu-gpl-v3
 
