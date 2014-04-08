@@ -1,3 +1,6 @@
+# Getting ready for pkgsrc_2013Q4!
+
+
 # TODO ports for Darwin x86_64 !
 
 - ghc - [yrmt] 
