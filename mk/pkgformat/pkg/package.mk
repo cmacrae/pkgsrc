@@ -77,6 +77,17 @@ ${STAGE_PKGFILE}: ${_CONTENTS_TARGETS}
 	fi
 
 .if ${_USE_DESTDIR} != "no"
+.if !empty(SIGN_PACKAGES:Mgpg)
+${PKGFILE}: ${STAGE_PKGFILE}
+	${RUN} ${MKDIR} ${.TARGET:H}
+	@${STEP_MSG} "Creating signed binary package ${.TARGET}"
+	${PKG_ADMIN} gpg-sign-package ${STAGE_PKGFILE} ${PKGFILE}
+.elif !empty(SIGN_PACKAGES:Mx509)
+${PKGFILE}: ${STAGE_PKGFILE}
+	${RUN} ${MKDIR} ${.TARGET:H}
+	@${STEP_MSG} "Creating signed binary package ${.TARGET}"
+	${PKG_ADMIN} x509-sign-package ${STAGE_PKGFILE} ${PKGFILE} ${X509_KEY} ${X509_CERTIFICATE}
+.else
 ${PKGFILE}: ${STAGE_PKGFILE}
 	${RUN} ${MKDIR} ${.TARGET:H}
 	@${STEP_MSG} "Creating binary package ${.TARGET}"
