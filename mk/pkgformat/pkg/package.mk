@@ -94,6 +94,7 @@ ${PKGFILE}: ${STAGE_PKGFILE}
 	${LN} -f ${STAGE_PKGFILE} ${PKGFILE} 2>/dev/null || \
 		${CP} -pf ${STAGE_PKGFILE} ${PKGFILE}
 .endif
+.endif
 
 ######################################################################
 ### package-remove (PRIVATE)
