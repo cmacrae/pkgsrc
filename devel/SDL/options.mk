@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.SDL
 PKG_SUPPORTED_OPTIONS=	aalib arts esound nas pulseaudio
-PKG_SUGGESTED_OPTIONS=	esound nas pulseaudio
+PKG_SUGGESTED_OPTIONS=	esound nas 
 
 .include "../../mk/bsd.options.mk"
 
