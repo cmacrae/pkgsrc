@@ -52,6 +52,8 @@ CFLAGS+=		-D_NETBSD_SOURCE
 
 CPPFLAGS.SunOS+=	--std=c99 -D_XOPEN_SOURCE=600
 
+CFLAGS.Darwin+=		-D__APPLE_USE_RFC_3542
+
 PLIST_SRC+=		${PKGDIR}/PLIST.shared
 
 CONF_FILES+=		${PREFIX}/share/examples/avahi/avahi-daemon.conf \
