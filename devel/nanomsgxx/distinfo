@@ -1,0 +1,7 @@
+$NetBSD$
+
+SHA1 (nanomsgxx/897ad9009b7ff3152c943524204aca5b6b126a3b.zip) = cd3ded54482c57f527821df26ddcf862b6ba5052
+RMD160 (nanomsgxx/897ad9009b7ff3152c943524204aca5b6b126a3b.zip) = 44b325fd7dd830159844a1e2d9f34c386159d04a
+Size (nanomsgxx/897ad9009b7ff3152c943524204aca5b6b126a3b.zip) = 195060 bytes
+SHA1 (patch-libnnxx.pc.in) = e8ac8241e2ce59f1bfb1e398bbfb476993ef70d2
+SHA1 (patch-wscript) = 49ddeb7289dd67bea96cdc6a534a50a1b8522bfa
