@@ -1,6 +1,6 @@
 $NetBSD: patch-src_3rdparty_webkit_Source_JavaScriptCore_heap_MachineStackMarker.cpp,v 1.2 2012/04/09 09:12:49 adam Exp $
 
---- src/3rdparty/webkit/Source/JavaScriptCore/heap/MachineStackMarker.cpp.orig	2012-03-14 14:01:26.000000000 +0000
+--- src/3rdparty/webkit/Source/JavaScriptCore/heap/MachineStackMarker.cpp.orig	2014-04-10 18:37:11.000000000 +0000
 +++ src/3rdparty/webkit/Source/JavaScriptCore/heap/MachineStackMarker.cpp
 @@ -20,6 +20,9 @@
   */

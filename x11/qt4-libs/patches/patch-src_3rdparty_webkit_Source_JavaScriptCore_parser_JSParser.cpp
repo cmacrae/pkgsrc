@@ -1,6 +1,6 @@
 $NetBSD: patch-src_3rdparty_webkit_Source_JavaScriptCore_parser_JSParser.cpp,v 1.1 2013/05/09 14:07:08 joerg Exp $
 
---- src/3rdparty/webkit/Source/JavaScriptCore/parser/JSParser.cpp.orig	2013-05-08 15:01:59.000000000 +0000
+--- src/3rdparty/webkit/Source/JavaScriptCore/parser/JSParser.cpp.orig	2014-04-10 18:37:11.000000000 +0000
 +++ src/3rdparty/webkit/Source/JavaScriptCore/parser/JSParser.cpp
 @@ -453,8 +453,8 @@ private:
          

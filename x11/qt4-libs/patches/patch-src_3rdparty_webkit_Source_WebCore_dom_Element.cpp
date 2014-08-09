@@ -1,6 +1,6 @@
 $NetBSD: patch-src_3rdparty_webkit_Source_WebCore_dom_Element.cpp,v 1.1 2013/08/29 13:00:41 joerg Exp $
 
---- src/3rdparty/webkit/Source/WebCore/dom/Element.cpp.orig	2013-07-12 11:02:45.000000000 +0000
+--- src/3rdparty/webkit/Source/WebCore/dom/Element.cpp.orig	2014-04-10 18:37:11.000000000 +0000
 +++ src/3rdparty/webkit/Source/WebCore/dom/Element.cpp
 @@ -1080,7 +1080,7 @@ void Element::recalcStyle(StyleChange ch
  {

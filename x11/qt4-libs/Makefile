@@ -1,7 +1,6 @@
-# $NetBSD: Makefile,v 1.95 2013/10/10 14:42:39 ryoon Exp $
+# $NetBSD: Makefile,v 1.99 2014/07/22 17:01:51 wiz Exp $
 
 PKGNAME=	qt4-libs-${QTVERSION}
-PKGREVISION=	2
 COMMENT=	C++ X GUI toolkit
 
 .include "../../x11/qt4-libs/Makefile.common"
@@ -22,13 +21,17 @@ CONFIGURE_ARGS+=	-no-dbus
 CONFIGURE_ARGS+=	-no-libmng
 CONFIGURE_ARGS+=	-no-libtiff
 CONFIGURE_ARGS+=	-no-sql-sqlite
+CONFIGURE_ARGS+=	-no-cocoa
+CONFIGURE_ARGS+=	-no-framework
 
+CFLAGS.Darwin+=		-Wno-deprecated-register
+CFLAGS.Darwin+=		-Wno-constant-logical-operand
 # kdelibs4 requires openssl support!
 CONFIGURE_ARGS+=	-openssl-linked
 
 .include "../../mk/compiler.mk"
 .if !empty(PKGSRC_COMPILER:Mclang)
-CXXFLAGS+=	-std=c++11 -Wno-c++11-narrowing
+CXXFLAGS+=	-std=c++11 -Wno-c++11-narrowing -stdlib=libc++
 .if empty(MACHINE_PLATFORM:MDarwin-*-*)
 CXXFLAGS+=	-D_GLIBCXX_USE_C99_FP_MACROS_DYNAMIC=1
 .endif

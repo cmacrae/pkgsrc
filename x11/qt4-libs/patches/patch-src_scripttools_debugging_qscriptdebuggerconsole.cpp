@@ -1,6 +1,6 @@
 $NetBSD: patch-src_scripttools_debugging_qscriptdebuggerconsole.cpp,v 1.1 2013/08/29 13:00:41 joerg Exp $
 
---- src/scripttools/debugging/qscriptdebuggerconsole.cpp.orig	2013-07-12 12:05:08.000000000 +0000
+--- src/scripttools/debugging/qscriptdebuggerconsole.cpp.orig	2014-04-10 18:37:12.000000000 +0000
 +++ src/scripttools/debugging/qscriptdebuggerconsole.cpp
 @@ -489,7 +489,7 @@ QScriptDebuggerConsoleCommandJob *QScrip
      d->input += QLatin1Char('\n');

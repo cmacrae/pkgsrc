@@ -2,7 +2,7 @@ $NetBSD: patch-src_corelib_io_qfilesystemwatcher.cpp,v 1.2 2012/12/07 10:06:13 a
 
 Use kqueue instead of fam to monitor the file system
 
---- src/corelib/io/qfilesystemwatcher.cpp.orig	2012-11-23 10:09:55.000000000 +0000
+--- src/corelib/io/qfilesystemwatcher.cpp.orig	2014-04-10 18:37:11.000000000 +0000
 +++ src/corelib/io/qfilesystemwatcher.cpp
 @@ -59,7 +59,7 @@
  #  include "qfilesystemwatcher_dnotify_p.h"

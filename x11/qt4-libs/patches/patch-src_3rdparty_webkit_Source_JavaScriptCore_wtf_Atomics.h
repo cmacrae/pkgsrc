@@ -1,6 +1,6 @@
 $NetBSD: patch-src_3rdparty_webkit_Source_JavaScriptCore_wtf_Atomics.h,v 1.2 2013/07/07 18:13:56 adam Exp $
 
---- src/3rdparty/webkit/Source/JavaScriptCore/wtf/Atomics.h.orig	2013-06-07 05:16:54.000000000 +0000
+--- src/3rdparty/webkit/Source/JavaScriptCore/wtf/Atomics.h.orig	2014-04-10 18:37:11.000000000 +0000
 +++ src/3rdparty/webkit/Source/JavaScriptCore/wtf/Atomics.h
 @@ -69,6 +69,8 @@
  #include <cutils/atomic.h>

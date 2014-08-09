@@ -1,6 +1,6 @@
 $NetBSD: patch-qmake_generators_makefile.cpp,v 1.3 2012/05/24 08:07:33 adam Exp $
 
---- qmake/generators/makefile.cpp.orig	2012-05-24 05:03:21.000000000 +0000
+--- qmake/generators/makefile.cpp.orig	2014-04-10 18:37:13.000000000 +0000
 +++ qmake/generators/makefile.cpp
 @@ -3256,7 +3256,7 @@ MakefileGenerator::writePkgConfigFile()
              bundle = bundle.left(suffix);

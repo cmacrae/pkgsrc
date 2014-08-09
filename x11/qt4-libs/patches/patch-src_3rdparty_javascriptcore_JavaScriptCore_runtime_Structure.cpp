@@ -1,6 +1,6 @@
 $NetBSD: patch-src_3rdparty_javascriptcore_JavaScriptCore_runtime_Structure.cpp,v 1.1 2013/05/09 14:07:08 joerg Exp $
 
---- src/3rdparty/javascriptcore/JavaScriptCore/runtime/Structure.cpp.orig	2013-05-08 13:07:22.000000000 +0000
+--- src/3rdparty/javascriptcore/JavaScriptCore/runtime/Structure.cpp.orig	2014-04-10 18:37:12.000000000 +0000
 +++ src/3rdparty/javascriptcore/JavaScriptCore/runtime/Structure.cpp
 @@ -156,9 +156,10 @@ Structure::Structure(JSValue prototype, 
  Structure::~Structure()

@@ -1,7 +1,7 @@
 $NetBSD: patch-ab,v 1.13 2011/08/14 08:56:21 mrg Exp $
 
---- src/corelib/arch/powerpc/arch.pri.orig	2011-08-07 17:47:09.000000000 -0700
-+++ src/corelib/arch/powerpc/arch.pri	2011-08-07 17:47:23.000000000 -0700
+--- src/corelib/arch/powerpc/arch.pri.orig	2014-04-10 18:37:11.000000000 +0000
++++ src/corelib/arch/powerpc/arch.pri
 @@ -1,7 +1,7 @@
  #
  # PowerPC architecture

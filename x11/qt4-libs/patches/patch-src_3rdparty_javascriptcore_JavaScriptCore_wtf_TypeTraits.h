@@ -1,6 +1,6 @@
 $NetBSD: patch-src_3rdparty_javascriptcore_JavaScriptCore_wtf_TypeTraits.h,v 1.1 2013/07/07 18:13:56 adam Exp $
 
---- src/3rdparty/javascriptcore/JavaScriptCore/wtf/TypeTraits.h.orig	2013-06-07 05:16:58.000000000 +0000
+--- src/3rdparty/javascriptcore/JavaScriptCore/wtf/TypeTraits.h.orig	2014-04-10 18:37:12.000000000 +0000
 +++ src/3rdparty/javascriptcore/JavaScriptCore/wtf/TypeTraits.h
 @@ -25,7 +25,7 @@
  #include "Platform.h"

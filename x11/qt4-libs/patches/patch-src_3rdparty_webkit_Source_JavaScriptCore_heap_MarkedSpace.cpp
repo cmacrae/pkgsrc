@@ -1,6 +1,6 @@
 $NetBSD: patch-src_3rdparty_webkit_Source_JavaScriptCore_heap_MarkedSpace.cpp,v 1.1 2013/05/09 14:07:08 joerg Exp $
 
---- src/3rdparty/webkit/Source/JavaScriptCore/heap/MarkedSpace.cpp.orig	2013-05-08 14:48:50.000000000 +0000
+--- src/3rdparty/webkit/Source/JavaScriptCore/heap/MarkedSpace.cpp.orig	2014-04-10 18:37:11.000000000 +0000
 +++ src/3rdparty/webkit/Source/JavaScriptCore/heap/MarkedSpace.cpp
 @@ -124,8 +124,8 @@ void MarkedSpace::sweep()
  size_t MarkedSpace::objectCount() const

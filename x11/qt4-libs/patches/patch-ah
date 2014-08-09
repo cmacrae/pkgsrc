@@ -1,6 +1,6 @@
 $NetBSD: patch-ah,v 1.1.1.1 2006/02/20 12:08:15 adam Exp $
 
---- mkspecs/interix-g++/qplatformdefs.h.orig	Tue Oct 12 16:43:29 2004
+--- mkspecs/interix-g++/qplatformdefs.h.orig	2014-08-08 21:09:03.000000000 +0000
 +++ mkspecs/interix-g++/qplatformdefs.h
 @@ -0,0 +1,85 @@
 +#ifndef QPLATFORMDEFS_H

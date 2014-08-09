@@ -1,6 +1,6 @@
 $NetBSD: patch-ca,v 1.3 2010/09/03 13:47:12 drochner Exp $
 
---- mkspecs/features/silent.prf.orig	2010-06-02 02:03:08.000000000 +0000
+--- mkspecs/features/silent.prf.orig	2014-04-10 18:37:12.000000000 +0000
 +++ mkspecs/features/silent.prf
 @@ -1,6 +1,7 @@
 -!macx-xcode {

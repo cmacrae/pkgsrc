@@ -1,6 +1,6 @@
 $NetBSD: patch-src_3rdparty_webkit_Source_JavaScriptCore_wtf_ThreadSafeRefCounted.h,v 1.1 2013/05/09 14:07:08 joerg Exp $
 
---- src/3rdparty/webkit/Source/JavaScriptCore/wtf/ThreadSafeRefCounted.h.orig	2013-05-08 13:26:56.000000000 +0000
+--- src/3rdparty/webkit/Source/JavaScriptCore/wtf/ThreadSafeRefCounted.h.orig	2014-04-10 18:37:11.000000000 +0000
 +++ src/3rdparty/webkit/Source/JavaScriptCore/wtf/ThreadSafeRefCounted.h
 @@ -96,7 +96,7 @@ public:
  #if !USE(LOCKFREE_THREADSAFEREFCOUNTED)

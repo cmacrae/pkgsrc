@@ -1,6 +1,6 @@
 $NetBSD: patch-av,v 1.2 2013/07/07 18:13:56 adam Exp $
 
---- config.tests/mac/dwarf2.test.orig	2013-06-07 05:16:41.000000000 +0000
+--- config.tests/mac/dwarf2.test.orig	2014-04-10 18:37:08.000000000 +0000
 +++ config.tests/mac/dwarf2.test
 @@ -41,7 +41,7 @@ rm -f dwarf2.c dwarf2.o
  "$COMPILER" $WORKDIR/xcodeversion.cpp $CXXFLAGS $LFLAGS -o xcodeversion -framework Carbon;

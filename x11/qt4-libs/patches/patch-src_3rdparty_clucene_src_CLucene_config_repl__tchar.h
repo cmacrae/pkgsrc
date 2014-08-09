@@ -1,6 +1,6 @@
 $NetBSD: patch-src_3rdparty_clucene_src_CLucene_config_repl__tchar.h,v 1.1 2013/05/09 14:07:08 joerg Exp $
 
---- src/3rdparty/clucene/src/CLucene/config/repl_tchar.h.orig	2012-11-23 10:10:12.000000000 +0000
+--- src/3rdparty/clucene/src/CLucene/config/repl_tchar.h.orig	2014-04-10 18:37:12.000000000 +0000
 +++ src/3rdparty/clucene/src/CLucene/config/repl_tchar.h
 @@ -33,7 +33,7 @@
      #define _tcscpy wcscpy //copy a string to another string

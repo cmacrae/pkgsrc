@@ -1,9 +1,11 @@
-# $NetBSD: Makefile,v 1.30 2013/06/06 12:53:42 wiz Exp $
+# $NetBSD: Makefile,v 1.35 2014/07/22 17:55:16 wiz Exp $
 #
+# when updating this, also update py-qt4-qscintilla
+# XXX: these two should share a Makefile.common
 
-DISTNAME=	QScintilla-gpl-2.7.1
+DISTNAME=	QScintilla-gpl-2.8
 PKGNAME=	qt4-${DISTNAME:tl:S/-gpl-/-/}
-PKGREVISION=	3
+PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pyqt/}
 

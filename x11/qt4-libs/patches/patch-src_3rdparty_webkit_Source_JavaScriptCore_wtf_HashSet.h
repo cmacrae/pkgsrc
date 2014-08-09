@@ -1,6 +1,6 @@
 $NetBSD: patch-src_3rdparty_webkit_Source_JavaScriptCore_wtf_HashSet.h,v 1.1 2013/05/09 14:07:08 joerg Exp $
 
---- src/3rdparty/webkit/Source/JavaScriptCore/wtf/HashSet.h.orig	2013-05-08 14:26:07.000000000 +0000
+--- src/3rdparty/webkit/Source/JavaScriptCore/wtf/HashSet.h.orig	2014-04-10 18:37:11.000000000 +0000
 +++ src/3rdparty/webkit/Source/JavaScriptCore/wtf/HashSet.h
 @@ -49,7 +49,7 @@ namespace WTF {
              HashFunctions, ValueTraits, ValueTraits> HashTableType;
