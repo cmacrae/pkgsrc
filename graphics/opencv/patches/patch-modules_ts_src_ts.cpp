@@ -2,7 +2,7 @@ $NetBSD: patch-modules_ts_src_ts.cpp,v 1.2 2013/06/19 11:54:04 fhajny Exp $
 
 Avoid std::foo conflict.
 
---- modules/ts/src/ts.cpp.orig	2013-04-05 09:00:20.000000000 +0000
+--- modules/ts/src/ts.cpp.orig	2013-07-10 11:49:00.000000000 +0000
 +++ modules/ts/src/ts.cpp
 @@ -562,7 +562,7 @@ void TS::vprintf( int streams, const cha
      for( int i = 0; i < MAX_IDX; i++ )

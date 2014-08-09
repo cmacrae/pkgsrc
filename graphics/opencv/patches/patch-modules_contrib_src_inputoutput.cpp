@@ -2,7 +2,7 @@ $NetBSD: patch-modules_contrib_src_inputoutput.cpp,v 1.1 2013/06/12 10:13:58 jpe
 
 SunOS does not have dirent d_type.
 
---- modules/contrib/src/inputoutput.cpp.orig	2012-10-17 22:55:38.000000000 +0000
+--- modules/contrib/src/inputoutput.cpp.orig	2013-07-10 11:49:00.000000000 +0000
 +++ modules/contrib/src/inputoutput.cpp
 @@ -5,6 +5,9 @@
      #include <windows.h>

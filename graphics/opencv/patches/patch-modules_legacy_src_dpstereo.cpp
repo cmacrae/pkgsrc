@@ -1,6 +1,6 @@
 $NetBSD: patch-modules_legacy_src_dpstereo.cpp,v 1.1 2013/02/26 23:38:08 joerg Exp $
 
---- modules/legacy/src/dpstereo.cpp.orig	2012-10-22 22:55:11.000000000 +0000
+--- modules/legacy/src/dpstereo.cpp.orig	2013-07-10 11:49:00.000000000 +0000
 +++ modules/legacy/src/dpstereo.cpp
 @@ -65,6 +65,8 @@
  

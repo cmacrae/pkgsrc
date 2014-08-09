@@ -2,9 +2,9 @@ $NetBSD: patch-modules_core_include_opencv2_core_types_c.h,v 1.1 2012/12/07 21:3
 
 Define 'depth' as unsigned int, or IPL_DEPTH_SIGN=0x8000000 won't fit in int.
 
---- modules/core/include/opencv2/core/types_c.h.orig	2012-12-07 21:15:58.000000000 +0000
+--- modules/core/include/opencv2/core/types_c.h.orig	2013-07-10 11:49:00.000000000 +0000
 +++ modules/core/include/opencv2/core/types_c.h
-@@ -473,7 +473,7 @@ typedef struct _IplImage
+@@ -465,7 +465,7 @@ typedef struct _IplImage
      int  ID;                /* version (=0)*/
      int  nChannels;         /* Most of OpenCV functions support 1,2,3 or 4 channels */
      int  alphaChannel;      /* Ignored by OpenCV */
