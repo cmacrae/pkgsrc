@@ -247,6 +247,48 @@ show_files(const char *title, package_t *plist)
 }
 
 /*
+ * Show all files in the packing list (except ignored ones) for pkg_files.txt
+ * 
+ */
+void
+show_pkg_files(const char *title, package_t *plist)
+{
+	plist_t *p;
+	Boolean ign;
+	const char *dir = ".";
+	const char *pkgname = "PKG";
+
+	if (!Quiet) {
+		printf("%s%s", InfoPrefix, title);
+	}
+	for (ign = FALSE, p = plist->head; p; p = p->next) {
+ 		if (p->type == PLIST_NAME) {
+			pkgname = p->name;
+			break;
+		}
+        }
+	for (ign = FALSE, p = plist->head; p; p = p->next) {
+		switch (p->type) {
+		case PLIST_FILE:
+			if (!ign) {
+				printf("%s: %s%s%s\n", pkgname, dir,
+					(strcmp(dir, "/") == 0) ? "" : "/", p->name);
+			}
+			ign = FALSE;
+			break;
+		case PLIST_CWD:
+			dir = p->name;
+			break;
+		case PLIST_IGNORE:
+			ign = TRUE;
+			break;
+		default:
+			break;
+		}
+	}
+}
+
+/*
  * Show dependencies (packages this pkg requires)
  */
 void

@@ -101,6 +101,7 @@ struct pkg_meta {
 #define SHOW_BI_VAR		0x40000
 #define SHOW_SUMMARY		0x80000
 #define SHOW_FULL_REQBY		0x100000
+#define SHOW_PKG_FILES		0x200000
 
 enum which {
     WHICH_ALL,
@@ -123,6 +124,7 @@ void	show_file(const char *, const char *, Boolean);
 void	show_var(const char *, const char *);
 void	show_plist(const char *, package_t *, pl_ent_t);
 void	show_files(const char *, package_t *);
+void	show_pkg_files(const char *, package_t *);
 void	show_depends(const char *, package_t *);
 void	show_bld_depends(const char *, package_t *);
 void	show_index(const char *, const char *);

@@ -25,7 +25,7 @@
 .Nd a utility for displaying information on software packages
 .Sh SYNOPSIS
 .Nm
-.Op Fl BbcDdFfhIikLmNnpqRrSsVvX
+.Op Fl BbcDdFfhIikLmNnpqRrSsVvXY
 .Op Fl E Ar pkg-name
 .Op Fl e Ar pkg-name
 .Op Fl K Ar pkg_dbdir
@@ -209,6 +209,12 @@ The summary format is
 described in
 .Xr pkg_summary 5 .
 Its primary use is to contain all information about the contents of a
+(remote) binary package repository needed by package managing software.
+.It Fl Y
+Similar as
+.Fl L .
+, but prefixes each line with package name.
+Its primary use is to provide a global searchable file list of a
 (remote) binary package repository needed by package managing software.
 .El
 .Sh TECHNICAL DETAILS

@@ -41,7 +41,7 @@ __RCSID("$NetBSD: main.c,v 1.31 2012/12/17 04:34:02 agc Exp $");
 #include "lib.h"
 #include "info.h"
 
-static const char Options[] = ".aBbcDde:E:fFhIiK:kLl:mNnpQ:qrRsSuvVX";
+static const char Options[] = ".aBbcDde:E:fFhIiK:kLl:mNnpQ:qrRsSuvVXY";
 
 int     Flags = 0;
 enum which Which = WHICH_LIST;
@@ -55,7 +55,7 @@ static void
 usage(void)
 {
 	fprintf(stderr, "%s\n%s\n%s\n%s\n",
-	    "usage: pkg_info [-BbcDdFfhIikLmNnpqRrSsVvX] [-E pkg-name] [-e pkg-name]",
+	    "usage: pkg_info [-BbcDdFfhIikLmNnpqRrSsVvXY] [-E pkg-name] [-e pkg-name]",
 	    "                [-K pkg_dbdir] [-l prefix] pkg-name ...",
 	    "       pkg_info [-a | -u] [flags]",
 	    "       pkg_info [-Q variable] pkg-name ...");
@@ -200,6 +200,10 @@ main(int argc, char **argv)
 
 		case 'X':
 			Flags |= SHOW_SUMMARY;
+			break;
+
+		case 'Y':
+			Flags |= SHOW_PKG_FILES;
 			break;
 
 		case 'h':

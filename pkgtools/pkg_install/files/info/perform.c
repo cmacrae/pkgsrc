@@ -473,6 +473,9 @@ pkg_do(const char *pkg)
 		if (Flags & SHOW_FILES) {
 			show_files("Files:\n", &plist);
 		}
+		if (Flags & SHOW_PKG_FILES) {
+			show_pkg_files("Files:\n", &plist);
+		}
 		if ((Flags & SHOW_BUILD_VERSION) && meta->meta_build_version) {
 			show_file(meta->meta_build_version, "Build version:\n",
 				  TRUE);
