@@ -1,0 +1,14 @@
+$NetBSD$
+
+--- pkgin.1.orig	2013-06-16 14:00:45.000000000 +0000
++++ pkgin.1
+@@ -124,6 +124,9 @@ requires from others
+ .Ar packages .
+ .It Cm search Ar pattern
+ Performs a regular expression search for a pattern in the repository.
++.It Cm search-file Ar pattern
++Performs a regular expression search for packages containing files
++matching pattern in the repository.
+ .It Cm show-deps 
+ Displays all direct dependencies
+ .It Cm show-full-deps Ar package

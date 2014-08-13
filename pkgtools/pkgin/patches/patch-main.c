@@ -11,7 +11,18 @@ $NetBSD: patch-main.c,v 1.2 2013/10/06 08:28:47 wiz Exp $
  	struct stat	sb;
  	const char	*chrootpath = NULL;
  
-@@ -244,7 +244,8 @@ main(int argc, char *argv[])
+@@ -236,6 +236,10 @@ main(int argc, char *argv[])
+ 		missing_param(argc, 2, MSG_MISSING_SRCH);
+ 		rc = search_pkg(argv[1]);
+ 		break;
++	case PKG_SRCHF_CMD: /* search for package containing a file */
++		missing_param(argc, 2, MSG_MISSING_SRCH);
++		rc = search_pkg_file(argv[1]);
++		break;
+ 	case PKG_CLEAN_CMD: /* clean pkgin's packages cache */
+ 		clean_cache();
+ 		break;
+@@ -244,7 +248,8 @@ main(int argc, char *argv[])
  		break;
  	case PKG_IMPORT_CMD: /* import for keep packages and install them */
  		missing_param(argc, 2, MSG_MISSING_FILENAME);
@@ -21,7 +32,7 @@ $NetBSD: patch-main.c,v 1.2 2013/10/06 08:28:47 wiz Exp $
  		break;
  	case PKG_SHPROV_CMD: /* show what a package provides */
  		missing_param(argc, 2, MSG_MISSING_PKGNAME);
-@@ -301,10 +302,9 @@ main(int argc, char *argv[])
+@@ -301,10 +306,9 @@ main(int argc, char *argv[])
  static void
  missing_param(int argc, int nargs, const char *msg)
  {
